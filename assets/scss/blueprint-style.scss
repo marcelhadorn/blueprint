@@ -1,0 +1,331 @@
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #2c94c9;
+    min-height: 100%;
+}
+html {
+    background: #2c94c9;
+    height: 100%;
+}
+
+/*
+ *  Grid Overlay for Twitter Bootstrap
+ */
+//  .showgrid {
+//     @media (min-width: 1170px) {
+//         body {
+//             background: -webkit-linear-gradient(
+//                             90deg, 
+//                             rgba(255,255,255,0.04), 
+//                             rgba(255,255,255,0.04)    4.545%, 
+//                             rgba(255,255,255,0)       4.545%, 
+//                             rgba(255,255,255,0)       100%
+//                         ),
+//                         -webkit-linear-gradient(
+//                             0deg,
+//                             rgba(255,255,255,0),
+//                             rgba(255,255,255,0)      34.5%,
+//                             rgba(255,255,255,0.12)   34.5%,
+//                             rgba(255,255,255,0.12)   35.5%,
+//                             rgba(255,255,255,0.05)   35.5%,
+//                             rgba(255,255,255,0.05)   65.5%,
+//                             rgba(255,255,255,0.12)   65.5%,
+//                             rgba(255,255,255,0.12)   66.5%,
+//                             rgba(255,255,255,0)      66.5%,
+//                             rgba(255,255,255,0)      100%
+//                         );
+//             background-size: 1.692em 1.692em, 6.992em 7.692em; /* 7.692 - 2.308 = 5.384 */
+//             background-position: left top, center top;
+//         }
+//     }
+//     @media (max-width: 1199px) and (min-width: 980px) {
+//         body {
+//             background: -webkit-linear-gradient(
+//                             90deg, 
+//                             rgba(255,255,255,0.1), 
+//                             rgba(255,255,255,0.1)    4.545%, 
+//                             rgba(255,255,255,0)       4.545%, 
+//                             rgba(255,255,255,0)       100%
+//                         ),
+//                         -webkit-linear-gradient(
+//                             0deg,
+//                             rgba(255,255,255,0),
+//                             rgba(255,255,255,0)      31.5%,
+//                             rgba(255,255,255,0.12)   31.5%,
+//                             rgba(255,255,255,0.12)   32.5%,
+//                             rgba(255,255,255,0.05)   32.5%,
+//                             rgba(255,255,255,0.05)   67.5%,
+//                             rgba(255,255,255,0.12)   67.5%,
+//                             rgba(255,255,255,0.12)   68.5%,
+//                             rgba(255,255,255,0)      68.5%,
+//                             rgba(255,255,255,0)      100%
+//                         );
+//             background-size: 1.692em 1.692em, 5.804em 6.154em;
+//             background-position: left top, center top;
+//         }
+//     }
+//     @media (max-width: 979px) {
+//         body {
+//             background: -webkit-linear-gradient(
+//                             90deg, 
+//                             rgba(255,255,255,0.1), 
+//                             rgba(255,255,255,0.1)    4.545%, 
+//                             rgba(255,255,255,0)       4.545%, 
+//                             rgba(255,255,255,0)       100%
+//                         ),
+//                         -webkit-linear-gradient(
+//                             0deg,
+//                             rgba(255,255,255,0),
+//                             rgba(255,255,255,0)      29.5%,
+//                             rgba(255,255,255,0.12)   29.5%,
+//                             rgba(255,255,255,0.12)   31.5%,
+//                             rgba(255,255,255,0.05)   31.5%,
+//                             rgba(255,255,255,0.05)   69.5%,
+//                             rgba(255,255,255,0.12)   69.5%,
+//                             rgba(255,255,255,0.12)   71.5%,
+//                             rgba(255,255,255,0)      71.5%,
+//                             rgba(255,255,255,0)      100%
+//                         );
+//             background-size: 1.692em 1.692em, 4.469em 4.769em;
+//             background-position: left top, center top;
+//         }
+//     }
+//     @media (max-width: 760px){
+//         body {
+//             background: -webkit-linear-gradient(
+//                             90deg, 
+//                             rgba(255,255,255,0.1), 
+//                             rgba(255,255,255,0.1)    4.545%, 
+//                             rgba(255,255,255,0)       4.545%, 
+//                             rgba(255,255,255,0)       100%
+//                         );
+//             background-size: 1.692em 1.692em;
+//             background-position: left top;  
+//         }
+//     }
+// }
+
+// /* Container width optimised for Gridview */
+// @media screen and (min-width: 768px) {
+//     .container {
+//         max-width: 1164px;
+//     }
+// }
+
+
+* {
+    text-shadow: none !important;
+}
+
+p {
+    color: white;
+}
+
+.bulless {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+input, textarea, .form-control {
+    @include box-shadow(none);
+    color: white;
+    background: transparentize($brand-primary,.9);
+
+    &:focus {
+        -webkit-outline: none !important;
+        //@include box-shadow(0 0 8px 0 rgba(255,255,255,.8));
+        border-color: white;
+        background-color: white;
+        color: $brand-primary;
+
+        &::-webkit-input-placeholder {
+            color: lighten($brand-info,20%);
+        }
+    }
+
+    &::-webkit-input-placeholder {
+        color: white;
+    }
+}
+
+
+.isin {
+    display: none;
+}
+
+body.signedin .isin {
+    display: block;
+}
+
+
+[unit="profile"] ul {
+    display: none;
+    padding-left: 18px;
+}
+
+.well {
+    background-color: transparent;
+    @include box-shadow(none);
+}
+
+h2.brand {
+    img, span {
+        float: left;
+    }
+
+    img {
+        width: 40px; height: 40px;
+        border: solid 1px white;
+        border-radius:8px;
+        margin: -7px 12px 0 0;
+    }
+}
+.navbar {
+    border-bottom: 1px solid #e5e5e5;
+}
+.nav li a { border: 1px solid transparent; }
+.nav li.active a { background: $brand-primary; color: white; border: 1px solid white; span.glyphicon { margin-right: 5px;} }
+
+    /* Gallery & Lighbox
+    --------------------------------*/
+    
+.backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    display: none;
+    overflow: auto;
+    overflow-y: scroll;
+    @include transition(.5s cubic-bezier(.52,-0.11,.54,1.17) all);
+    background-color: transparentize(#1e4e80, .3);
+
+    &.in {
+        display: block;
+    }
+}
+
+.cellobox {
+    display: none;
+    position: fixed;
+    min-width: 480px;
+    min-height: 480px;
+    outline: 0;
+    top: 50px;
+    left: 50%;
+    z-index: 99999;
+    margin: 0px 0 0 -400px;
+    border: 1px solid white;
+    @include box-shadow(0px 3px 6px rgba(0,0,0,.2));
+
+    &.fade {
+        @include transition(.5s cubic-bezier(.52,-0.11,.54,1.17) top, .5s cubic-bezier(.52,-0.11,.54,1.17) opacity);
+    }
+
+    &.in {
+        top: 50px;
+        display: block;
+        opacity: 1;
+    }
+}
+#gallery, .imagecont {
+    .thumbnail, .thumbnail img {
+        background-size: cover;
+        height: 200px;
+        width: 100%;
+
+        p {
+            position: absolute;
+            top: 10px;
+            margin-left: 15px;
+        }
+    }
+
+    .thumbnail, .cellobox {
+        background: transparentize($brand-info,.6);
+
+        &:hover {
+            background-color: rgba(255,255,255,.1);
+            border-color: white;
+        }
+
+        .glyphicon {
+            position: relative;
+            top: 50% !important; left: 50%;
+            margin: -38px 0 0 -35px;
+
+            &:before {
+                font-size: 5em;
+                color: white;
+            }
+        }
+    }
+
+    .cellobox {
+        background: white;
+
+        &:hover {
+            background-color: rgba(255,255,255,.8);
+        }
+
+        .glyphicon {
+            position: relative;
+            margin-top: 41%;
+
+            &:before {
+                color: $brand-primary;
+            }
+        }
+    }
+}
+
+.imagecont {
+    .thumbnail:hover {
+        background-color: transparentize($brand-info,.6);
+    }
+}
+/* Custom page header */
+header {
+    height: 55px;
+}
+
+#wrapper {
+    margin-top: 10px;
+}
+
+.footer {
+    color: #777;
+}
+
+
+#signinform {
+    margin-bottom: 20px !important;
+}
+
+#signoutform {
+    display: none;
+
+    h4 {
+        margin: 6px 0 0 15px;
+        float: left;
+    }
+
+    .btn {
+        float: right;
+        margin-right: 15px;
+    }
+}
+
+body.signedin {
+    #signinform {
+        display: none;
+    }
+
+    #signoutform {
+        display: block;
+    }
+}

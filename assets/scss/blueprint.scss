@@ -1,0 +1,220 @@
+/*
+ *  Grid Overlay for Twitter Bootstrap
+ */
+$grid-transparent:    rgba(255,0,0,0) !default;
+$grid-horizontal:     rgba(255,0,0,0.04) !default;
+$grid-vertical-light: rgba(255,0,0,0.05) !default;
+$grid-vertical-dark:  rgba(255,0,0,0.12) !default;
+
+body {
+    background-color: transparent;
+}
+
+//.showgrid {
+    @media (min-width: 1170px) {
+        body {
+            background: -webkit-linear-gradient(
+                            90deg, 
+                            $grid-horizontal, 
+                            $grid-horizontal        4.545%, 
+                            $grid-transparent       4.545%, 
+                            $grid-transparent       100%
+                        ),
+                        -webkit-linear-gradient(
+                            0deg,
+                            $grid-transparent,
+                            $grid-transparent        34.5%,
+                            $grid-vertical-dark      34.5%,
+                            $grid-vertical-dark      35.5%,
+                            $grid-vertical-light     35.5%,
+                            $grid-vertical-light     65.5%,
+                            $grid-vertical-dark      65.5%,
+                            $grid-vertical-dark      66.5%,
+                            $grid-transparent        66.5%,
+                            $grid-transparent        100%
+                        );
+            background-size: 1.692em 1.692em, 6.992em 7.692em; /* 7.692 - 2.308 = 5.384 */
+            background-position: left top, center top;
+        }
+    }
+    @media (max-width: 1199px) and (min-width: 980px) {
+        body {
+            background: -webkit-linear-gradient(
+                            90deg, 
+                            $grid-horizontal, 
+                            $grid-horizontal        4.545%, 
+                            $grid-transparent       4.545%, 
+                            $grid-transparent       100%
+                        ),
+                        -webkit-linear-gradient(
+                            0deg,
+                            $grid-transparent,
+                            $grid-transparent       31.5%,
+                            $grid-vertical-dark     31.5%,
+                            $grid-vertical-dark     32.5%,
+                            $grid-vertical-light    32.5%,
+                            $grid-vertical-light    67.5%,
+                            $grid-vertical-dark     67.5%,
+                            $grid-vertical-dark     68.5%,
+                            $grid-transparent       68.5%,
+                            $grid-transparent       100%
+                        );
+            background-size: 1.692em 1.692em, 5.804em 6.154em;
+            background-position: left top, center top;
+        }
+    }
+    @media (max-width: 979px) {
+        body {
+            background: -webkit-linear-gradient(
+                            90deg, 
+                            $grid-horizontal, 
+                            $grid-horizontal        4.545%, 
+                            $grid-transparent       4.545%, 
+                            $grid-transparent       100%
+                        ),
+                        -webkit-linear-gradient(
+                            0deg,
+                            $grid-transparent,
+                            $grid-transparent       29.5%,
+                            $grid-vertical-dark     29.5%,
+                            $grid-vertical-dark     31.5%,
+                            $grid-vertical-light    31.5%,
+                            $grid-vertical-light    69.5%,
+                            $grid-vertical-dark     69.5%,
+                            $grid-vertical-dark     71.5%,
+                            $grid-transparent       71.5%,
+                            $grid-transparent       100%
+                        );
+            background-size: 1.692em 1.692em, 4.469em 4.769em;
+            background-position: left top, center top;
+        }
+    }
+    @media (max-width: 760px){
+        body {
+            background: -webkit-linear-gradient(
+                            90deg, 
+                            $grid-horizontal, 
+                            $grid-horizontal        4.545%, 
+                            $grid-transparent       4.545%, 
+                            $grid-transparent       100%
+                        );
+            background-size: 1.692em 1.692em;
+            background-position: left top;  
+        }
+    }
+//}
+
+/* Container width optimised for Gridview */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 1164px;
+    }
+}
+
+h2.brand {
+    img {
+        border-radius:8px;
+    }
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    min-height: 100%;
+    z-index: 1040;
+    display: none;
+    overflow: auto;
+    overflow-y: scroll;
+    @include transition(.5s cubic-bezier(.52,-0.11,.54,1.17) all);
+    background-color: transparentize(black, .5);
+
+    &.in {
+        display: block;
+    }
+}
+
+.cellobox {
+    display: none;
+    position: fixed;
+    min-width: 480px;
+    min-height: 480px;
+    outline: 0;
+    top: 50px;
+    left: 50%;
+    z-index: 99999;
+    margin: 0px 0 0 -400px;
+    border: 1px solid white;
+    @include box-shadow(0px 3px 6px rgba(0,0,0,.2));
+
+    &.fade {
+        @include transition(.5s cubic-bezier(.52,-0.11,.54,1.17) top, .5s cubic-bezier(.52,-0.11,.54,1.17) opacity);
+    }
+
+    &.in {
+        top: 50px;
+        display: block;
+        opacity: 1;
+    }
+}
+
+#gallery {
+    .thumbnail, .thumbnail img {
+        background-size: cover;
+        height: 200px;
+        width: 100%;
+    }
+
+    .thumbnail, .cellobox {
+        background: transparentize(lightgrey,.3);
+
+        &:hover {
+            background: transparentize(lightgrey,.5);
+            border-color: white;
+        }
+
+        .glyphicon {
+            position: relative;
+            top: 50%; left: 50%;
+            margin: -38px 0 0 -35px;
+
+            &:before {
+                font-size: 5em;
+                color: white;
+            }
+        }
+    }
+
+    .cellobox {
+        background: white;
+
+        &:hover {
+            background-color: rgba(255,255,255,.8);
+        }
+
+        .glyphicon {
+            position: relative;
+            margin-top: 41%;
+
+            &:before {
+                color: $brand-primary;
+            }
+        }
+    }
+}
+
+.isin {
+    display: none;
+}
+
+body.signedin .isin {
+    display: block;
+}
+
+
+[unit="profile"] ul {
+    display: none;
+    padding-left: 18px;
+}
