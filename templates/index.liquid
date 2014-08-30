@@ -5,4 +5,16 @@
 {% endblock %}
 
 {% block content %}
+<div class="row">
+    <div class="col-md-4">
+        {% include "signin" %}
+        {% include "signout" %}
+    </div>
+    <div class="col-md-8">
+        {% include "gallery" %}
+        <div class="isout well">
+            <p>You're not logged in</p>
+        </div>
+    </div>
+</div>
 {% endblock %}

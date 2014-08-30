@@ -10,7 +10,9 @@ Sign Out
 			<h4 class="username"></h4> <button type="submit" id="signout" class="btn btn-primary">Signout</button>
 		</div>
 	</div>
-	<script>
+</div>
+{% block scripts %}
+<script>
 	$(document).ready(function(){
 		var retrievedObject = localStorage.getItem('signin');
 		var username = JSON.parse(retrievedObject);
@@ -19,5 +21,5 @@ Sign Out
 			$('h4.username').html('Signed in as <b>'+ username.user +'</b>');
 		}
 	});
-	</script>
-</div>
+</script>
+{% endblock %}

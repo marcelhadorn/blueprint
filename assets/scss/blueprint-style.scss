@@ -13,106 +13,106 @@ html {
 /*
  *  Grid Overlay for Twitter Bootstrap
  */
-//  .showgrid {
-//     @media (min-width: 1170px) {
-//         body {
-//             background: -webkit-linear-gradient(
-//                             90deg, 
-//                             rgba(255,255,255,0.04), 
-//                             rgba(255,255,255,0.04)    4.545%, 
-//                             rgba(255,255,255,0)       4.545%, 
-//                             rgba(255,255,255,0)       100%
-//                         ),
-//                         -webkit-linear-gradient(
-//                             0deg,
-//                             rgba(255,255,255,0),
-//                             rgba(255,255,255,0)      34.5%,
-//                             rgba(255,255,255,0.12)   34.5%,
-//                             rgba(255,255,255,0.12)   35.5%,
-//                             rgba(255,255,255,0.05)   35.5%,
-//                             rgba(255,255,255,0.05)   65.5%,
-//                             rgba(255,255,255,0.12)   65.5%,
-//                             rgba(255,255,255,0.12)   66.5%,
-//                             rgba(255,255,255,0)      66.5%,
-//                             rgba(255,255,255,0)      100%
-//                         );
-//             background-size: 1.692em 1.692em, 6.992em 7.692em; /* 7.692 - 2.308 = 5.384 */
-//             background-position: left top, center top;
-//         }
-//     }
-//     @media (max-width: 1199px) and (min-width: 980px) {
-//         body {
-//             background: -webkit-linear-gradient(
-//                             90deg, 
-//                             rgba(255,255,255,0.1), 
-//                             rgba(255,255,255,0.1)    4.545%, 
-//                             rgba(255,255,255,0)       4.545%, 
-//                             rgba(255,255,255,0)       100%
-//                         ),
-//                         -webkit-linear-gradient(
-//                             0deg,
-//                             rgba(255,255,255,0),
-//                             rgba(255,255,255,0)      31.5%,
-//                             rgba(255,255,255,0.12)   31.5%,
-//                             rgba(255,255,255,0.12)   32.5%,
-//                             rgba(255,255,255,0.05)   32.5%,
-//                             rgba(255,255,255,0.05)   67.5%,
-//                             rgba(255,255,255,0.12)   67.5%,
-//                             rgba(255,255,255,0.12)   68.5%,
-//                             rgba(255,255,255,0)      68.5%,
-//                             rgba(255,255,255,0)      100%
-//                         );
-//             background-size: 1.692em 1.692em, 5.804em 6.154em;
-//             background-position: left top, center top;
-//         }
-//     }
-//     @media (max-width: 979px) {
-//         body {
-//             background: -webkit-linear-gradient(
-//                             90deg, 
-//                             rgba(255,255,255,0.1), 
-//                             rgba(255,255,255,0.1)    4.545%, 
-//                             rgba(255,255,255,0)       4.545%, 
-//                             rgba(255,255,255,0)       100%
-//                         ),
-//                         -webkit-linear-gradient(
-//                             0deg,
-//                             rgba(255,255,255,0),
-//                             rgba(255,255,255,0)      29.5%,
-//                             rgba(255,255,255,0.12)   29.5%,
-//                             rgba(255,255,255,0.12)   31.5%,
-//                             rgba(255,255,255,0.05)   31.5%,
-//                             rgba(255,255,255,0.05)   69.5%,
-//                             rgba(255,255,255,0.12)   69.5%,
-//                             rgba(255,255,255,0.12)   71.5%,
-//                             rgba(255,255,255,0)      71.5%,
-//                             rgba(255,255,255,0)      100%
-//                         );
-//             background-size: 1.692em 1.692em, 4.469em 4.769em;
-//             background-position: left top, center top;
-//         }
-//     }
-//     @media (max-width: 760px){
-//         body {
-//             background: -webkit-linear-gradient(
-//                             90deg, 
-//                             rgba(255,255,255,0.1), 
-//                             rgba(255,255,255,0.1)    4.545%, 
-//                             rgba(255,255,255,0)       4.545%, 
-//                             rgba(255,255,255,0)       100%
-//                         );
-//             background-size: 1.692em 1.692em;
-//             background-position: left top;  
-//         }
-//     }
-// }
+ .showgrid {
+    @media (min-width: 1170px) {
+        body {
+            background: -webkit-linear-gradient(
+                            90deg, 
+                            rgba(255,255,255,0.04), 
+                            rgba(255,255,255,0.04)    4.545%, 
+                            rgba(255,255,255,0)       4.545%, 
+                            rgba(255,255,255,0)       100%
+                        ),
+                        -webkit-linear-gradient(
+                            0deg,
+                            rgba(255,255,255,0),
+                            rgba(255,255,255,0)      34.5%,
+                            rgba(255,255,255,0.12)   34.5%,
+                            rgba(255,255,255,0.12)   35.5%,
+                            rgba(255,255,255,0.05)   35.5%,
+                            rgba(255,255,255,0.05)   65.5%,
+                            rgba(255,255,255,0.12)   65.5%,
+                            rgba(255,255,255,0.12)   66.5%,
+                            rgba(255,255,255,0)      66.5%,
+                            rgba(255,255,255,0)      100%
+                        );
+            background-size: 1.692em 1.692em, 6.992em 7.692em; /* 7.692 - 2.308 = 5.384 */
+            background-position: left top, center top;
+        }
+    }
+    @media (max-width: 1199px) and (min-width: 980px) {
+        body {
+            background: -webkit-linear-gradient(
+                            90deg, 
+                            rgba(255,255,255,0.1), 
+                            rgba(255,255,255,0.1)    4.545%, 
+                            rgba(255,255,255,0)       4.545%, 
+                            rgba(255,255,255,0)       100%
+                        ),
+                        -webkit-linear-gradient(
+                            0deg,
+                            rgba(255,255,255,0),
+                            rgba(255,255,255,0)      31.5%,
+                            rgba(255,255,255,0.12)   31.5%,
+                            rgba(255,255,255,0.12)   32.5%,
+                            rgba(255,255,255,0.05)   32.5%,
+                            rgba(255,255,255,0.05)   67.5%,
+                            rgba(255,255,255,0.12)   67.5%,
+                            rgba(255,255,255,0.12)   68.5%,
+                            rgba(255,255,255,0)      68.5%,
+                            rgba(255,255,255,0)      100%
+                        );
+            background-size: 1.692em 1.692em, 5.804em 6.154em;
+            background-position: left top, center top;
+        }
+    }
+    @media (max-width: 979px) {
+        body {
+            background: -webkit-linear-gradient(
+                            90deg, 
+                            rgba(255,255,255,0.1), 
+                            rgba(255,255,255,0.1)    4.545%, 
+                            rgba(255,255,255,0)       4.545%, 
+                            rgba(255,255,255,0)       100%
+                        ),
+                        -webkit-linear-gradient(
+                            0deg,
+                            rgba(255,255,255,0),
+                            rgba(255,255,255,0)      29.5%,
+                            rgba(255,255,255,0.12)   29.5%,
+                            rgba(255,255,255,0.12)   31.5%,
+                            rgba(255,255,255,0.05)   31.5%,
+                            rgba(255,255,255,0.05)   69.5%,
+                            rgba(255,255,255,0.12)   69.5%,
+                            rgba(255,255,255,0.12)   71.5%,
+                            rgba(255,255,255,0)      71.5%,
+                            rgba(255,255,255,0)      100%
+                        );
+            background-size: 1.692em 1.692em, 4.469em 4.769em;
+            background-position: left top, center top;
+        }
+    }
+    @media (max-width: 760px){
+        body {
+            background: -webkit-linear-gradient(
+                            90deg, 
+                            rgba(255,255,255,0.1), 
+                            rgba(255,255,255,0.1)    4.545%, 
+                            rgba(255,255,255,0)       4.545%, 
+                            rgba(255,255,255,0)       100%
+                        );
+            background-size: 1.692em 1.692em;
+            background-position: left top;  
+        }
+    }
+}
 
-// /* Container width optimised for Gridview */
-// @media screen and (min-width: 768px) {
-//     .container {
-//         max-width: 1164px;
-//     }
-// }
+/* Container width optimised for Gridview */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 1164px;
+    }
+}
 
 
 * {
@@ -316,7 +316,7 @@ header {
 
     .btn {
         float: right;
-        margin-right: 15px;
+        margin: 0 15px 15px 0;
     }
 }
 

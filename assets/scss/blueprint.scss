@@ -10,7 +10,7 @@ body {
     background-color: transparent;
 }
 
-//.showgrid {
+.showgrid {
     @media (min-width: 1170px) {
         body {
             background: -webkit-linear-gradient(
@@ -102,7 +102,7 @@ body {
             background-position: left top;  
         }
     }
-//}
+}
 
 /* Container width optimised for Gridview */
 @media screen and (min-width: 768px) {
@@ -160,6 +160,11 @@ h2.brand {
     }
 }
 
+.well {
+    display: block;
+    padding: 20px 20px 30px;
+}
+
 #gallery {
     .thumbnail, .thumbnail img {
         background-size: cover;
@@ -205,12 +210,22 @@ h2.brand {
     }
 }
 
+#gallery {
+    margin-top: 0px !important;
+}
+
 .isin {
     display: none;
 }
 
-body.signedin .isin {
-    display: block;
+
+body.signedin {
+    .isin {
+        display: block;
+    }
+    .isout {
+        display: none;
+    }
 }
 
 

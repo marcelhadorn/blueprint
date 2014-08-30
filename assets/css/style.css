@@ -5628,29 +5628,26 @@ body {
 
 @media (min-width: 1170px) {
   /* line 15, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-  body {
+  .showgrid body {
     background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04) 4.545%, rgba(255, 255, 255, 0) 4.545%, rgba(255, 255, 255, 0) 100%), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 34.5%, rgba(255, 255, 255, 0.12) 34.5%, rgba(255, 255, 255, 0.12) 35.5%, rgba(255, 255, 255, 0.05) 35.5%, rgba(255, 255, 255, 0.05) 65.5%, rgba(255, 255, 255, 0.12) 65.5%, rgba(255, 255, 255, 0.12) 66.5%, rgba(255, 255, 255, 0) 66.5%, rgba(255, 255, 255, 0) 100%);
     background-size: 1.692em 1.692em, 6.992em 7.692em;
     /* 7.692 - 2.308 = 5.384 */
     background-position: left top, center top; } }
-
 @media (max-width: 1199px) and (min-width: 980px) {
   /* line 41, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-  body {
+  .showgrid body {
     background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04) 4.545%, rgba(255, 255, 255, 0) 4.545%, rgba(255, 255, 255, 0) 100%), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 31.5%, rgba(255, 255, 255, 0.12) 31.5%, rgba(255, 255, 255, 0.12) 32.5%, rgba(255, 255, 255, 0.05) 32.5%, rgba(255, 255, 255, 0.05) 67.5%, rgba(255, 255, 255, 0.12) 67.5%, rgba(255, 255, 255, 0.12) 68.5%, rgba(255, 255, 255, 0) 68.5%, rgba(255, 255, 255, 0) 100%);
     background-size: 1.692em 1.692em, 5.804em 6.154em;
     background-position: left top, center top; } }
-
 @media (max-width: 979px) {
   /* line 67, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-  body {
+  .showgrid body {
     background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04) 4.545%, rgba(255, 255, 255, 0) 4.545%, rgba(255, 255, 255, 0) 100%), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 29.5%, rgba(255, 255, 255, 0.12) 29.5%, rgba(255, 255, 255, 0.12) 31.5%, rgba(255, 255, 255, 0.05) 31.5%, rgba(255, 255, 255, 0.05) 69.5%, rgba(255, 255, 255, 0.12) 69.5%, rgba(255, 255, 255, 0.12) 71.5%, rgba(255, 255, 255, 0) 71.5%, rgba(255, 255, 255, 0) 100%);
     background-size: 1.692em 1.692em, 4.469em 4.769em;
     background-position: left top, center top; } }
-
 @media (max-width: 760px) {
   /* line 93, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-  body {
+  .showgrid body {
     background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04) 4.545%, rgba(255, 255, 255, 0) 4.545%, rgba(255, 255, 255, 0) 100%);
     background-size: 1.692em 1.692em;
     background-position: left top; } }
@@ -5708,51 +5705,63 @@ h2.brand img {
     display: block;
     opacity: 1; }
 
-/* line 164, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
+/* line 163, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
+.well {
+  display: block;
+  padding: 20px 20px 30px; }
+
+/* line 169, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
 #gallery .thumbnail, #gallery .thumbnail img {
   background-size: cover;
   height: 200px;
   width: 100%; }
-/* line 170, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
+/* line 175, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
 #gallery .thumbnail, #gallery .cellobox {
   background: rgba(211, 211, 211, 0.7); }
-  /* line 173, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
+  /* line 178, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
   #gallery .thumbnail:hover, #gallery .cellobox:hover {
     background: rgba(211, 211, 211, 0.5);
     border-color: white; }
-  /* line 178, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
+  /* line 183, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
   #gallery .thumbnail .glyphicon, #gallery .cellobox .glyphicon {
     position: relative;
     top: 50%;
     left: 50%;
     margin: -38px 0 0 -35px; }
-    /* line 183, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
+    /* line 188, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
     #gallery .thumbnail .glyphicon:before, #gallery .cellobox .glyphicon:before {
       font-size: 5em;
       color: white; }
-/* line 190, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
+/* line 195, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
 #gallery .cellobox {
   background: white; }
-  /* line 193, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
+  /* line 198, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
   #gallery .cellobox:hover {
     background-color: rgba(255, 255, 255, 0.8); }
-  /* line 197, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
+  /* line 202, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
   #gallery .cellobox .glyphicon {
     position: relative;
     margin-top: 41%; }
-    /* line 201, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
+    /* line 206, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
     #gallery .cellobox .glyphicon:before {
       color: #1e4e80; }
 
-/* line 208, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
+/* line 213, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
+#gallery {
+  margin-top: 0px !important; }
+
+/* line 217, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
 .isin {
   display: none; }
 
-/* line 212, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
+/* line 223, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
 body.signedin .isin {
   display: block; }
+/* line 226, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
+body.signedin .isout {
+  display: none; }
 
-/* line 217, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
+/* line 232, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
 [unit="profile"] ul {
   display: none;
   padding-left: 18px; }
@@ -5773,6 +5782,38 @@ html {
 /*
  *  Grid Overlay for Twitter Bootstrap
  */
+@media (min-width: 1170px) {
+  /* line 18, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
+  .showgrid body {
+    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04) 4.545%, rgba(255, 255, 255, 0) 4.545%, rgba(255, 255, 255, 0) 100%), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 34.5%, rgba(255, 255, 255, 0.12) 34.5%, rgba(255, 255, 255, 0.12) 35.5%, rgba(255, 255, 255, 0.05) 35.5%, rgba(255, 255, 255, 0.05) 65.5%, rgba(255, 255, 255, 0.12) 65.5%, rgba(255, 255, 255, 0.12) 66.5%, rgba(255, 255, 255, 0) 66.5%, rgba(255, 255, 255, 0) 100%);
+    background-size: 1.692em 1.692em, 6.992em 7.692em;
+    /* 7.692 - 2.308 = 5.384 */
+    background-position: left top, center top; } }
+@media (max-width: 1199px) and (min-width: 980px) {
+  /* line 44, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
+  .showgrid body {
+    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 4.545%, rgba(255, 255, 255, 0) 4.545%, rgba(255, 255, 255, 0) 100%), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 31.5%, rgba(255, 255, 255, 0.12) 31.5%, rgba(255, 255, 255, 0.12) 32.5%, rgba(255, 255, 255, 0.05) 32.5%, rgba(255, 255, 255, 0.05) 67.5%, rgba(255, 255, 255, 0.12) 67.5%, rgba(255, 255, 255, 0.12) 68.5%, rgba(255, 255, 255, 0) 68.5%, rgba(255, 255, 255, 0) 100%);
+    background-size: 1.692em 1.692em, 5.804em 6.154em;
+    background-position: left top, center top; } }
+@media (max-width: 979px) {
+  /* line 70, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
+  .showgrid body {
+    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 4.545%, rgba(255, 255, 255, 0) 4.545%, rgba(255, 255, 255, 0) 100%), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 29.5%, rgba(255, 255, 255, 0.12) 29.5%, rgba(255, 255, 255, 0.12) 31.5%, rgba(255, 255, 255, 0.05) 31.5%, rgba(255, 255, 255, 0.05) 69.5%, rgba(255, 255, 255, 0.12) 69.5%, rgba(255, 255, 255, 0.12) 71.5%, rgba(255, 255, 255, 0) 71.5%, rgba(255, 255, 255, 0) 100%);
+    background-size: 1.692em 1.692em, 4.469em 4.769em;
+    background-position: left top, center top; } }
+@media (max-width: 760px) {
+  /* line 96, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
+  .showgrid body {
+    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 4.545%, rgba(255, 255, 255, 0) 4.545%, rgba(255, 255, 255, 0) 100%);
+    background-size: 1.692em 1.692em;
+    background-position: left top; } }
+
+/* Container width optimised for Gridview */
+@media screen and (min-width: 768px) {
+  /* line 112, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
+  .container {
+    max-width: 1164px; } }
+
 /* line 118, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
 * {
   text-shadow: none !important; }
@@ -5968,7 +6009,7 @@ header {
   /* line 317, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
   #signoutform .btn {
     float: right;
-    margin-right: 15px; }
+    margin: 0 15px 15px 0; }
 
 /* line 324, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
 body.signedin #signinform {

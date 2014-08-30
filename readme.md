@@ -6,7 +6,7 @@ Clickable Prototype Framework based on Bootstrap 3 and with Mustache.js
 * [Twitter Bootstrap][1] (incl. jQuery & Modernizer)
 * [Mixture.io][2]
 
-## Optional (needs editing)
+## Optional
 * [jQuery.UI][3]
 
 
@@ -33,9 +33,22 @@ Please check the Mixture Docs.
 
 ### Show the Grid
 There's a grid overlay for the blueprint and basic bootstrap style. it is turned in the Settings section of the blueprint.js:
+
 ```javascript
 // SETTINGS!
 var showgrid = true;
+```
+
+### Fake Login
+Blueprint features a _fake login_ which helps you to visualize how your prototype will behave differently while a user is logged in or not. The users and passwords etc. can be created in the ```/models/_global.json```. When you attempt a login, blueprint will simply compare the input with the registered users in ```_global.json```. If there's a match, it will write this users name into the browsers local storage and considers the user as logged in. Logging out simply clears the local storage.
+
+To show or hide elements when a user is logged in or not simply add a class to your elemnets (or complete container).
+
+#### Example
+
+```HTML
+<div class="isout">I'm an element only shown to Guests</div>
+<div class="isin">I'm an element only shown to logged in Users</div>
 ```
 
 ## Contributing
