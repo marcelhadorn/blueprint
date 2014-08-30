@@ -6,7 +6,7 @@ Clickable Prototype Framework based on Bootstrap 3 and with Mustache.js
 * [Twitter Bootstrap][1] (incl. jQuery & Modernizer)
 * [Mixture.io][2]
 
-## Optional
+#### Optional
 * [jQuery.UI][3]
 
 
