@@ -9,7 +9,6 @@ Clickable Prototype Framework based on Bootstrap 3 and with Mustache.js
 #### Optional
 * [jQuery.UI][3]
 
-
 ## Foreword
 Brueprint is a framework to create clickable prototypes fast and easy. It is **not** meant for production use. Blueprint provides pragamtic workflow for _Interactione Designer_ who have knowledge of HTML/CSS.
 

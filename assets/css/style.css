@@ -278,7 +278,7 @@ body {
   font-size: 14px;
   line-height: 1.42857;
   color: white;
-  background-color: #fff; }
+  background-color: #2c94c9; }
 
 /* line 39, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/scaffolding */
 input, button, select, textarea {
@@ -322,7 +322,7 @@ img {
 .img-thumbnail {
   padding: 0px;
   line-height: 1.42857;
-  background-color: #fff;
+  background-color: #2c94c9;
   border: 1px solid white;
   border-radius: 2px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1468,7 +1468,7 @@ th {
     border-top: 2px solid white; }
   /* line 56, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/tables */
   .table .table {
-    background-color: #fff; }
+    background-color: #2c94c9; }
 
 /* line 70, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/tables */
 .table-condensed > thead > tr > th, .table-condensed > thead > tr > td, .table-condensed > tbody > tr > th, .table-condensed > tbody > tr > td, .table-condensed > tfoot > tr > th, .table-condensed > tfoot > tr > td {
@@ -2231,8 +2231,8 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg'); }
+  src: url('/assets/fonts/bootstrapglyphicons-halflings-regular.eot');
+  src: url('/assets/fonts/bootstrapglyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/bootstrapglyphicons-halflings-regular.woff') format('woff'), url('/assets/fonts/bootstrapglyphicons-halflings-regular.ttf') format('truetype'), url('/assets/fonts/bootstrapglyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg'); }
 
 /* line 21, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/glyphicons */
 .glyphicon {
@@ -3526,7 +3526,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
     /* line 98, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/navs */
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
       color: #555555;
-      background-color: #fff;
+      background-color: #2c94c9;
       border: 1px solid #ddd;
       border-bottom-color: transparent;
       cursor: default; }
@@ -3593,7 +3593,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
       border-radius: 2px 2px 0 0; }
     /* line 212, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/navs */
     .nav-tabs-justified > .active > a, .nav-tabs-justified > .active > .nav-tabs.nav-justified, .nav-tabs-justified > .active > .nav-tabs.nav-justified, .nav-tabs-justified > .active > a:hover, .nav-tabs-justified > .active > .nav-tabs.nav-justified, .nav-tabs-justified > .active > .nav-tabs.nav-justified, .nav-tabs-justified > .active > a:focus, .nav-tabs-justified > .active > .nav-tabs.nav-justified, .nav-tabs-justified > .active > .nav-tabs.nav-justified {
-      border-bottom-color: #fff; } }
+      border-bottom-color: #2c94c9; } }
 
 /* line 224, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/navs */
 .tab-content > .tab-pane {
@@ -4257,7 +4257,7 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
   padding: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: rgba(255, 255, 255, 0); }
+  background-color: rgba(255, 255, 255, 0.1); }
   /* line 13, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/jumbotron */
   .jumbotron h1, .jumbotron .h1 {
     color: inherit; }
@@ -4290,7 +4290,7 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
   padding: 0px;
   margin-bottom: 20px;
   line-height: 1.42857;
-  background-color: #fff;
+  background-color: #2c94c9;
   border: 1px solid white;
   border-radius: 2px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -4519,7 +4519,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
   display: block;
   padding: 10px 15px;
   margin-bottom: -1px;
-  background-color: #fff;
+  background-color: transparent;
   border: 1px solid #ddd; }
   /* line 31, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/list-group */
   .list-group-item:first-child {
@@ -4539,20 +4539,20 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 
 /* line 54, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/list-group */
 a.list-group-item {
-  color: #555; }
+  color: white; }
   /* line 57, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/list-group */
   a.list-group-item .list-group-item-heading {
-    color: #333; }
+    color: white; }
   /* line 63, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/list-group */
   a.list-group-item:hover, a.list-group-item:focus {
     text-decoration: none;
-    background-color: #f5f5f5; }
+    background-color: #1e4e80; }
   /* line 71, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/list-group */
   a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
     z-index: 2;
-    color: #fff;
+    color: white;
     background-color: #1e4e80;
-    border-color: #1e4e80; }
+    border-color: white; }
     /* line 78, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/list-group */
     a.list-group-item.active .list-group-item-heading, a.list-group-item.active:hover .list-group-item-heading, a.list-group-item.active:focus .list-group-item-heading {
       color: inherit; }
@@ -4657,7 +4657,7 @@ a.list-group-item-danger {
 /* line 7, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/panels */
 .panel {
   margin-bottom: 20px;
-  background-color: #fff;
+  background-color: transparent;
   border: 1px solid transparent;
   border-radius: 2px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -5620,478 +5620,333 @@ button.close {
     display: none !important; } }
 
 /*
- *  Grid Overlay for Twitter Bootstrap
- */
-/* line 9, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-body {
-  background-color: transparent; }
-
-@media (min-width: 1170px) {
-  /* line 15, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-  .showgrid body {
-    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04) 4.545%, rgba(255, 255, 255, 0) 4.545%, rgba(255, 255, 255, 0) 100%), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 34.5%, rgba(255, 255, 255, 0.12) 34.5%, rgba(255, 255, 255, 0.12) 35.5%, rgba(255, 255, 255, 0.05) 35.5%, rgba(255, 255, 255, 0.05) 65.5%, rgba(255, 255, 255, 0.12) 65.5%, rgba(255, 255, 255, 0.12) 66.5%, rgba(255, 255, 255, 0) 66.5%, rgba(255, 255, 255, 0) 100%);
-    background-size: 1.692em 1.692em, 6.992em 7.692em;
-    /* 7.692 - 2.308 = 5.384 */
-    background-position: left top, center top; } }
-@media (max-width: 1199px) and (min-width: 980px) {
-  /* line 41, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-  .showgrid body {
-    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04) 4.545%, rgba(255, 255, 255, 0) 4.545%, rgba(255, 255, 255, 0) 100%), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 31.5%, rgba(255, 255, 255, 0.12) 31.5%, rgba(255, 255, 255, 0.12) 32.5%, rgba(255, 255, 255, 0.05) 32.5%, rgba(255, 255, 255, 0.05) 67.5%, rgba(255, 255, 255, 0.12) 67.5%, rgba(255, 255, 255, 0.12) 68.5%, rgba(255, 255, 255, 0) 68.5%, rgba(255, 255, 255, 0) 100%);
-    background-size: 1.692em 1.692em, 5.804em 6.154em;
-    background-position: left top, center top; } }
-@media (max-width: 979px) {
-  /* line 67, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-  .showgrid body {
-    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04) 4.545%, rgba(255, 255, 255, 0) 4.545%, rgba(255, 255, 255, 0) 100%), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 29.5%, rgba(255, 255, 255, 0.12) 29.5%, rgba(255, 255, 255, 0.12) 31.5%, rgba(255, 255, 255, 0.05) 31.5%, rgba(255, 255, 255, 0.05) 69.5%, rgba(255, 255, 255, 0.12) 69.5%, rgba(255, 255, 255, 0.12) 71.5%, rgba(255, 255, 255, 0) 71.5%, rgba(255, 255, 255, 0) 100%);
-    background-size: 1.692em 1.692em, 4.469em 4.769em;
-    background-position: left top, center top; } }
-@media (max-width: 760px) {
-  /* line 93, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-  .showgrid body {
-    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04) 4.545%, rgba(255, 255, 255, 0) 4.545%, rgba(255, 255, 255, 0) 100%);
-    background-size: 1.692em 1.692em;
-    background-position: left top; } }
-
-/* Container width optimised for Gridview */
-@media screen and (min-width: 768px) {
-  /* line 109, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-  .container {
-    max-width: 1164px; } }
-
-/* line 115, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-h2.brand img {
-  border-radius: 8px; }
-
-/* line 120, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-.backdrop {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  min-height: 100%;
-  z-index: 1040;
-  display: none;
-  overflow: auto;
-  overflow-y: scroll;
-  -webkit-transition: 0.5s cubic-bezier(0.52, -0.11, 0.54, 1.17) all;
-  transition: 0.5s cubic-bezier(0.52, -0.11, 0.54, 1.17) all;
-  background-color: rgba(0, 0, 0, 0.5); }
-  /* line 134, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-  .backdrop.in {
-    display: block; }
-
-/* line 139, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-.cellobox {
-  display: none;
-  position: fixed;
-  min-width: 480px;
-  min-height: 480px;
-  outline: 0;
-  top: 50px;
-  left: 50%;
-  z-index: 99999;
-  margin: 0px 0 0 -400px;
-  border: 1px solid white;
-  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2); }
-  /* line 152, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-  .cellobox.fade {
-    -webkit-transition: 0.5s cubic-bezier(0.52, -0.11, 0.54, 1.17) top, 0.5s cubic-bezier(0.52, -0.11, 0.54, 1.17) opacity;
-    transition: 0.5s cubic-bezier(0.52, -0.11, 0.54, 1.17) top, 0.5s cubic-bezier(0.52, -0.11, 0.54, 1.17) opacity; }
-  /* line 156, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-  .cellobox.in {
-    top: 50px;
-    display: block;
-    opacity: 1; }
-
-/* line 163, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-.well {
-  display: block;
-  padding: 20px 20px 30px; }
-
-/* line 169, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-#gallery .thumbnail, #gallery .thumbnail img {
-  background-size: cover;
-  height: 200px;
-  width: 100%; }
-/* line 175, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-#gallery .thumbnail, #gallery .cellobox {
-  background: rgba(211, 211, 211, 0.7); }
-  /* line 178, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-  #gallery .thumbnail:hover, #gallery .cellobox:hover {
-    background: rgba(211, 211, 211, 0.5);
-    border-color: white; }
-  /* line 183, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-  #gallery .thumbnail .glyphicon, #gallery .cellobox .glyphicon {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    margin: -38px 0 0 -35px; }
-    /* line 188, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-    #gallery .thumbnail .glyphicon:before, #gallery .cellobox .glyphicon:before {
-      font-size: 5em;
-      color: white; }
-/* line 195, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-#gallery .cellobox {
-  background: white; }
-  /* line 198, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-  #gallery .cellobox:hover {
-    background-color: rgba(255, 255, 255, 0.8); }
-  /* line 202, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-  #gallery .cellobox .glyphicon {
-    position: relative;
-    margin-top: 41%; }
-    /* line 206, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-    #gallery .cellobox .glyphicon:before {
-      color: #1e4e80; }
-
-/* line 213, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-#gallery {
-  margin-top: 0px !important; }
-
-/* line 217, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-.isin {
-  display: none; }
-
-/* line 223, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-body.signedin .isin {
-  display: block; }
-/* line 226, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-body.signedin .isout {
-  display: none; }
-
-/* line 232, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint */
-[unit="profile"] ul {
-  display: none;
-  padding-left: 18px; }
-
-/* Space out content a bit */
-/* line 2, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background: #2c94c9;
-  min-height: 100%; }
-
-/* line 8, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-html {
-  background: #2c94c9;
-  height: 100%; }
-
+#################################################
+App: Blueprint, Author: Marcel Hadorn (@marc3llo)
+#################################################
+*/
 /*
  *  Grid Overlay for Twitter Bootstrap
  */
 @media (min-width: 1170px) {
-  /* line 18, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-  .showgrid body {
+  /* line 3, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/visualgrid */
+  html.showgrid body {
     background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04) 4.545%, rgba(255, 255, 255, 0) 4.545%, rgba(255, 255, 255, 0) 100%), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 34.5%, rgba(255, 255, 255, 0.12) 34.5%, rgba(255, 255, 255, 0.12) 35.5%, rgba(255, 255, 255, 0.05) 35.5%, rgba(255, 255, 255, 0.05) 65.5%, rgba(255, 255, 255, 0.12) 65.5%, rgba(255, 255, 255, 0.12) 66.5%, rgba(255, 255, 255, 0) 66.5%, rgba(255, 255, 255, 0) 100%);
     background-size: 1.692em 1.692em, 6.992em 7.692em;
     /* 7.692 - 2.308 = 5.384 */
     background-position: left top, center top; } }
 @media (max-width: 1199px) and (min-width: 980px) {
-  /* line 44, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-  .showgrid body {
-    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 4.545%, rgba(255, 255, 255, 0) 4.545%, rgba(255, 255, 255, 0) 100%), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 31.5%, rgba(255, 255, 255, 0.12) 31.5%, rgba(255, 255, 255, 0.12) 32.5%, rgba(255, 255, 255, 0.05) 32.5%, rgba(255, 255, 255, 0.05) 67.5%, rgba(255, 255, 255, 0.12) 67.5%, rgba(255, 255, 255, 0.12) 68.5%, rgba(255, 255, 255, 0) 68.5%, rgba(255, 255, 255, 0) 100%);
+  /* line 29, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/visualgrid */
+  html.showgrid body {
+    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04) 4.545%, rgba(255, 255, 255, 0) 4.545%, rgba(255, 255, 255, 0) 100%), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 31.5%, rgba(255, 255, 255, 0.12) 31.5%, rgba(255, 255, 255, 0.12) 32.5%, rgba(255, 255, 255, 0.05) 32.5%, rgba(255, 255, 255, 0.05) 67.5%, rgba(255, 255, 255, 0.12) 67.5%, rgba(255, 255, 255, 0.12) 68.5%, rgba(255, 255, 255, 0) 68.5%, rgba(255, 255, 255, 0) 100%);
     background-size: 1.692em 1.692em, 5.804em 6.154em;
     background-position: left top, center top; } }
 @media (max-width: 979px) {
-  /* line 70, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-  .showgrid body {
-    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 4.545%, rgba(255, 255, 255, 0) 4.545%, rgba(255, 255, 255, 0) 100%), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 29.5%, rgba(255, 255, 255, 0.12) 29.5%, rgba(255, 255, 255, 0.12) 31.5%, rgba(255, 255, 255, 0.05) 31.5%, rgba(255, 255, 255, 0.05) 69.5%, rgba(255, 255, 255, 0.12) 69.5%, rgba(255, 255, 255, 0.12) 71.5%, rgba(255, 255, 255, 0) 71.5%, rgba(255, 255, 255, 0) 100%);
+  /* line 55, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/visualgrid */
+  html.showgrid body {
+    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04) 4.545%, rgba(255, 255, 255, 0) 4.545%, rgba(255, 255, 255, 0) 100%), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 29.5%, rgba(255, 255, 255, 0.12) 29.5%, rgba(255, 255, 255, 0.12) 31.5%, rgba(255, 255, 255, 0.05) 31.5%, rgba(255, 255, 255, 0.05) 69.5%, rgba(255, 255, 255, 0.12) 69.5%, rgba(255, 255, 255, 0.12) 71.5%, rgba(255, 255, 255, 0) 71.5%, rgba(255, 255, 255, 0) 100%);
     background-size: 1.692em 1.692em, 4.469em 4.769em;
     background-position: left top, center top; } }
 @media (max-width: 760px) {
-  /* line 96, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-  .showgrid body {
-    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 4.545%, rgba(255, 255, 255, 0) 4.545%, rgba(255, 255, 255, 0) 100%);
+  /* line 81, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/visualgrid */
+  html.showgrid body {
+    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04) 4.545%, rgba(255, 255, 255, 0) 4.545%, rgba(255, 255, 255, 0) 100%);
     background-size: 1.692em 1.692em;
     background-position: left top; } }
 
-/* Container width optimised for Gridview */
-@media screen and (min-width: 768px) {
-  /* line 112, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-  .container {
-    max-width: 1164px; } }
+/* line 1, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+html {
+  background: #2c94c9;
+  height: 100%; }
 
-/* line 118, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
+/* line 6, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+body {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  background: #2c94c9;
+  min-height: 100%; }
+
+/* line 13, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
 * {
   text-shadow: none !important; }
 
-/* line 122, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
+/* line 17, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
 p {
   color: white; }
+  /* line 20, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+  p.lead span {
+    font-size: 0.8em !important; }
+    /* line 23, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+    p.lead span a {
+      color: white;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+      cursor: pointer; }
+      /* line 28, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+      p.lead span a:hover {
+        text-decoration: none;
+        border-bottom: 2px solid rgba(255, 255, 255, 0); }
 
-/* line 126, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-.bulless {
-  list-style-type: none;
-  padding-left: 0px; }
-
-/* line 131, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-input, textarea, .form-control {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  color: white;
-  background: rgba(30, 78, 128, 0.1); }
-  /* line 136, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-  input:focus, textarea:focus, .form-control:focus {
-    -webkit-outline: none !important;
-    border-color: white;
-    background-color: white;
-    color: #1e4e80; }
-    /* line 143, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-    input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder, .form-control:focus::-webkit-input-placeholder {
-      color: #57a5d9; }
-  /* line 148, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-  input::-webkit-input-placeholder, textarea::-webkit-input-placeholder, .form-control::-webkit-input-placeholder {
-    color: white; }
-
-/* line 154, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-.isin {
-  display: none; }
-
-/* line 158, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-body.signedin .isin {
-  display: block; }
-
-/* line 163, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-[unit="profile"] ul {
-  display: none;
-  padding-left: 18px; }
-
-/* line 168, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-.well {
-  background-color: transparent;
-  -webkit-box-shadow: none;
-  box-shadow: none; }
-
-/* line 174, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-h2.brand img, h2.brand span {
-  float: left; }
-/* line 178, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-h2.brand img {
-  width: 40px;
-  height: 40px;
-  border: solid 1px white;
-  border-radius: 8px;
-  margin: -7px 12px 0 0; }
-
-/* line 185, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-.navbar {
-  border-bottom: 1px solid #e5e5e5; }
-
-/* line 188, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-.nav li a {
-  border: 1px solid transparent; }
-
-/* line 189, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-.nav li.active a {
-  background: #1e4e80;
-  color: white;
-  border: 1px solid white; }
-  /* line 189, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-  .nav li.active a span.glyphicon {
-    margin-right: 5px; }
-
-/* Gallery & Lighbox
-    --------------------------------*/
-/* line 194, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-.backdrop {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1040;
-  display: none;
-  overflow: auto;
-  overflow-y: scroll;
-  -webkit-transition: 0.5s cubic-bezier(0.52, -0.11, 0.54, 1.17) all;
-  transition: 0.5s cubic-bezier(0.52, -0.11, 0.54, 1.17) all;
-  background-color: rgba(30, 78, 128, 0.7); }
-  /* line 207, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-  .backdrop.in {
-    display: block; }
-
-/* line 212, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-.cellobox {
-  display: none;
-  position: fixed;
-  min-width: 480px;
-  min-height: 480px;
-  outline: 0;
-  top: 50px;
-  left: 50%;
-  z-index: 99999;
-  margin: 0px 0 0 -400px;
-  border: 1px solid white;
-  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2); }
-  /* line 225, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-  .cellobox.fade {
-    -webkit-transition: 0.5s cubic-bezier(0.52, -0.11, 0.54, 1.17) top, 0.5s cubic-bezier(0.52, -0.11, 0.54, 1.17) opacity;
-    transition: 0.5s cubic-bezier(0.52, -0.11, 0.54, 1.17) top, 0.5s cubic-bezier(0.52, -0.11, 0.54, 1.17) opacity; }
-  /* line 229, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-  .cellobox.in {
-    top: 50px;
-    display: block;
-    opacity: 1; }
-
-/* line 236, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-#gallery .thumbnail, #gallery .thumbnail img, .imagecont .thumbnail, .imagecont .thumbnail img {
-  background-size: cover;
-  height: 200px;
-  width: 100%; }
-  /* line 241, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-  #gallery .thumbnail p, #gallery .thumbnail img p, .imagecont .thumbnail p, .imagecont .thumbnail img p {
-    position: absolute;
-    top: 10px;
-    margin-left: 15px; }
-/* line 248, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-#gallery .thumbnail, #gallery .cellobox, .imagecont .thumbnail, .imagecont .cellobox {
-  background: rgba(37, 112, 165, 0.4); }
-  /* line 251, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-  #gallery .thumbnail:hover, #gallery .cellobox:hover, .imagecont .thumbnail:hover, .imagecont .cellobox:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-color: white; }
-  /* line 256, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-  #gallery .thumbnail .glyphicon, #gallery .cellobox .glyphicon, .imagecont .thumbnail .glyphicon, .imagecont .cellobox .glyphicon {
-    position: relative;
-    top: 50% !important;
-    left: 50%;
-    margin: -38px 0 0 -35px; }
-    /* line 261, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-    #gallery .thumbnail .glyphicon:before, #gallery .cellobox .glyphicon:before, .imagecont .thumbnail .glyphicon:before, .imagecont .cellobox .glyphicon:before {
-      font-size: 5em;
-      color: white; }
-/* line 268, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-#gallery .cellobox, .imagecont .cellobox {
-  background: white; }
-  /* line 271, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-  #gallery .cellobox:hover, .imagecont .cellobox:hover {
-    background-color: rgba(255, 255, 255, 0.8); }
-  /* line 275, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-  #gallery .cellobox .glyphicon, .imagecont .cellobox .glyphicon {
-    position: relative;
-    margin-top: 41%; }
-    /* line 279, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-    #gallery .cellobox .glyphicon:before, .imagecont .cellobox .glyphicon:before {
-      color: #1e4e80; }
-
-/* line 287, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-.imagecont .thumbnail:hover {
-  background-color: rgba(37, 112, 165, 0.4); }
-
-/* Custom page header */
-/* line 292, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-header {
-  height: 55px; }
-
-/* line 296, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-#wrapper {
-  margin-top: 10px; }
-
-/* line 300, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-.footer {
-  color: #777; }
-
-/* line 305, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-#signinform {
-  margin-bottom: 20px !important; }
-
-/* line 309, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-#signoutform {
-  display: none; }
-  /* line 312, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-  #signoutform h4 {
-    margin: 6px 0 0 15px;
-    float: left; }
-  /* line 317, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-  #signoutform .btn {
-    float: right;
-    margin: 0 15px 15px 0; }
-
-/* line 324, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-body.signedin #signinform {
-  display: none; }
-/* line 328, /Users/marcel/Sites/blueprint/blueprint/assets/scss/blueprint-style */
-body.signedin #signoutform {
-  display: block; }
-
-/* line 18, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-body {
-  padding-top: 0px;
-  padding-bottom: 20px; }
-
-/* line 23, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-.jumbotron {
-  border: 1px solid white; }
-
-/* line 27, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-h2.brand {
-  margin: 6px 0px 0px; }
-  /* line 30, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-  h2.brand img, h2.brand span {
-    float: left; }
-  /* line 34, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-  h2.brand img {
-    background: #1e4e80;
-    margin: -1px 12px 0px 0; }
-
-/* line 40, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-.teaser {
-  border-bottom: 1px solid white; }
-
-/* line 44, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-p.lead span {
-  font-size: 0.8em !important; }
-  /* line 47, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-  p.lead span a {
-    color: white;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
-    cursor: pointer; }
-    /* line 52, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-    p.lead span a:hover {
-      text-decoration: none;
-      border-bottom: 2px solid white; }
-
-/* line 59, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 36, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
   color: #000;
   padding: 0.2em 0; }
 
-/* line 66, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 43, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+.content {
+  padding-top: 20px; }
+
+/* line 47, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+.bulless {
+  list-style-type: none;
+  padding-left: 0px; }
+
+/* line 52, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+.well {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding-bottom: 10px !important; }
+
+/* Custom page header */
+/* line 59, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+header {
+  height: 55px; }
+
+/* Make the masthead heading the same height as the navigation */
+/* line 64, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+header h2 {
+  line-height: 40px; }
+
+/* line 68, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+footer {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 19px;
+  border-top: 1px solid #e5e5e5; }
+
+/* line 75, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+#wrapper {
+  margin-top: 10px; }
+
+/* line 79, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+.footer {
+  color: #777; }
+
+/* line 83, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+.jumbotron {
+  border: 1px solid white; }
+
+/* line 87, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+.teaser {
+  border-bottom: 1px solid white; }
+
+/* line 91, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+.contact {
+  margin: 0px auto 30px;
+  padding: 10px 20px 20px;
+  text-align: center;
+  background-color: white;
+  color: #2570a5; }
+  /* line 97, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+  .contact p {
+    color: #2570a5;
+    font-size: 1.2em; }
+
+/* line 1, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/forms */
+input, textarea, .form-control {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: white;
+  background: rgba(30, 78, 128, 0.1); }
+  /* line 6, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/forms */
+  input:focus, textarea:focus, .form-control:focus {
+    -webkit-outline: none !important;
+    border-color: white;
+    background-color: white;
+    color: #1e4e80; }
+    /* line 13, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/forms */
+    input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder, .form-control:focus::-webkit-input-placeholder {
+      color: #57a5d9; }
+  /* line 18, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/forms */
+  input::-webkit-input-placeholder, textarea::-webkit-input-placeholder, .form-control::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.6) !important; }
+
+/* line 1, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
+h2.brand {
+  margin: 6px 0px 0px; }
+  /* line 4, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
+  h2.brand img, h2.brand span {
+    float: left; }
+  /* line 8, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
+  h2.brand img {
+    width: 40px;
+    height: 40px;
+    border: solid 1px white;
+    border-radius: 8px;
+    margin: -7px 12px 0 0;
+    border-radius: 8px;
+    background: #1e4e80;
+    margin: -1px 12px 0px 0; }
+
+/* line 18, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
 .navbar {
+  border-bottom: 1px solid #e5e5e5;
   margin: 0;
   background-color: #2c94c9; }
 
-/* line 71, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 23, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
+.nav li a {
+  border: 1px solid transparent; }
+
+/* line 24, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
+.nav li.active a {
+  background: #1e4e80;
+  color: white;
+  border: 1px solid white; }
+  /* line 24, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
+  .nav li.active a span.glyphicon {
+    margin-right: 5px; }
+
+/* line 26, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
 .nav {
   margin: 0px; }
-  /* line 74, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+  /* line 29, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
   .nav li a {
     border-top-width: 0px !important;
     border-bottom-width: 0px !important; }
 
-/* line 80, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-footer {
-  padding-left: 15px;
-  padding-right: 15px; }
+/* line 1, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+.backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  display: none;
+  overflow: auto;
+  overflow-y: scroll;
+  -webkit-transition: 0.5s cubic-bezier(0.52, -0.11, 0.54, 1.17) all;
+  transition: 0.5s cubic-bezier(0.52, -0.11, 0.54, 1.17) all;
+  background-color: rgba(44, 148, 201, 0.7); }
+  /* line 14, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+  .backdrop.in {
+    display: block; }
 
-/* Make the masthead heading the same height as the navigation */
-/* line 86, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-header h2 {
-  line-height: 40px; }
+/* line 19, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+.cellobox {
+  display: none;
+  position: fixed;
+  min-width: 480px;
+  min-height: 480px;
+  outline: 0;
+  top: 50px;
+  left: 50%;
+  z-index: 99999;
+  margin: 0px 0 0 -400px;
+  border: 1px solid white;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2); }
+  /* line 32, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+  .cellobox.fade {
+    -webkit-transition: 0.5s cubic-bezier(0.52, -0.11, 0.54, 1.17) top, 0.5s cubic-bezier(0.52, -0.11, 0.54, 1.17) opacity;
+    transition: 0.5s cubic-bezier(0.52, -0.11, 0.54, 1.17) top, 0.5s cubic-bezier(0.52, -0.11, 0.54, 1.17) opacity; }
+  /* line 36, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+  .cellobox.in {
+    top: 50px;
+    display: block;
+    opacity: 1; }
 
-/* Custom page footer */
-/* line 91, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-footer {
-  padding-top: 19px;
-  border-top: 1px solid #e5e5e5; }
+/* line 44, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+#gallery .thumbnail, #gallery .thumbnail img, .imagecont .thumbnail, .imagecont .thumbnail img {
+  background-size: cover;
+  height: 200px;
+  width: 100%; }
+  /* line 49, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+  #gallery .thumbnail p, #gallery .thumbnail img p, .imagecont .thumbnail p, .imagecont .thumbnail img p {
+    position: absolute;
+    top: 10px;
+    margin-left: 15px; }
+/* line 56, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+#gallery .thumbnail, #gallery .cellobox, .imagecont .thumbnail, .imagecont .cellobox {
+  background: rgba(44, 148, 201, 0.4); }
+  /* line 59, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+  #gallery .thumbnail:hover, #gallery .cellobox:hover, .imagecont .thumbnail:hover, .imagecont .cellobox:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: white; }
+  /* line 64, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+  #gallery .thumbnail .glyphicon, #gallery .cellobox .glyphicon, .imagecont .thumbnail .glyphicon, .imagecont .cellobox .glyphicon {
+    position: relative;
+    top: 50% !important;
+    left: 50%;
+    margin: -38px 0 0 -35px; }
+    /* line 69, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+    #gallery .thumbnail .glyphicon:before, #gallery .cellobox .glyphicon:before, .imagecont .thumbnail .glyphicon:before, .imagecont .cellobox .glyphicon:before {
+      font-size: 5em;
+      color: white; }
+/* line 76, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+#gallery .cellobox, .imagecont .cellobox {
+  background: white; }
+  /* line 79, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+  #gallery .cellobox:hover, .imagecont .cellobox:hover {
+    background-color: rgba(255, 255, 255, 0.8); }
+  /* line 83, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+  #gallery .cellobox .glyphicon, .imagecont .cellobox .glyphicon {
+    position: relative;
+    margin-top: 41%; }
+    /* line 87, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+    #gallery .cellobox .glyphicon:before, .imagecont .cellobox .glyphicon:before {
+      color: #1e4e80; }
 
-/* line 96, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 94, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+#gallery.row {
+  margin-top: 0px; }
+
+/* line 99, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+.imagecont .thumbnail:hover {
+  background-color: rgba(37, 112, 165, 0.4); }
+
+/* line 1, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/login */
+.isin {
+  display: none; }
+
+/* line 7, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/login */
+body.signedin .isin {
+  display: block; }
+/* line 10, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/login */
+body.signedin .isout {
+  display: none; }
+
+/* line 15, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/login */
+[unit="profile"] ul {
+  display: none;
+  padding-left: 18px; }
+
+/* line 20, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/login */
+#signinform {
+  margin-bottom: 20px !important; }
+
+/* line 24, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/login */
+#signoutform {
+  display: none; }
+  /* line 27, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/login */
+  #signoutform h4 {
+    margin: 6px 0 0 15px;
+    float: left; }
+  /* line 32, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/login */
+  #signoutform .btn {
+    float: right;
+    margin: 0 15px 15px 0; }
+
+/* line 39, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/login */
+body.signedin #signinform {
+  display: none; }
+/* line 43, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/login */
+body.signedin #signoutform {
+  display: block; }
+
+/* line 1, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/carousel */
 .carousel {
   height: 600px; }
   @media screen and (max-width: 1024px) {
@@ -6101,19 +5956,19 @@ footer {
     .carousel {
       height: 400px; } }
 
-/* line 110, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 15, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/carousel */
 .carousel-inner > .item {
   -webkit-transition: 1s ease-in-out left;
   transition: 1s ease-in-out left; }
-/* line 114, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 19, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/carousel */
 .carousel-inner .thumb {
   margin-top: 20px;
   margin-bottom: 10px;
   background-size: cover;
   height: 550px;
   width: 100%;
-  background-color: #2570a5;
-  border: 1px solid #206390;
+  background-color: rgba(25, 86, 117, 0.4);
+  border: 1px solid #154760;
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); }
   @media screen and (max-width: 1024px) {
@@ -6122,22 +5977,22 @@ footer {
   @media screen and (max-width: 320px) {
     .carousel-inner .thumb {
       height: 300px; } }
-  /* line 133, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+  /* line 38, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/carousel */
   .carousel-inner .thumb .glyphicon {
     position: relative;
     top: 50% !important;
     left: 50%;
     margin: -38px 0 0 -35px; }
-    /* line 138, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+    /* line 43, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/carousel */
     .carousel-inner .thumb .glyphicon:before {
       font-size: 5em;
       color: white; }
-  /* line 144, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+  /* line 49, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/carousel */
   .carousel-inner .thumb p {
     position: absolute;
     top: 30px;
     margin-left: 15px; }
-/* line 152, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 57, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/carousel */
 .carousel-inner .item:nth-child(2) .thumb {
   height: 450px;
   width: 80%;
@@ -6148,12 +6003,12 @@ footer {
   @media screen and (max-width: 320px) {
     .carousel-inner .item:nth-child(2) .thumb {
       height: 280px; } }
-  /* line 165, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+  /* line 70, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/carousel */
   .carousel-inner .item:nth-child(2) .thumb p {
     position: absolute;
     top: 80px;
     margin-left: 15px; }
-/* line 173, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 78, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/carousel */
 .carousel-inner .item:nth-child(2) div:nth-child(2) .thumb {
   margin: 70px 20% 70px 0%; }
   @media screen and (max-width: 1024px) {
@@ -6165,77 +6020,66 @@ footer {
       margin: 20px 0% 120px;
       width: 100%; } }
 
-/* line 190, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 95, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/carousel */
 .carousel-indicators li, .carousel-indicators li.active {
   width: 17px;
   height: 17px;
-  margin: 1px 5px; }
+  margin: 1px 5px;
+  border-color: white; }
 
-/* line 195, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 102, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/carousel */
+.carousel-indicators li.active {
+  background-color: white; }
+
+/* line 106, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/carousel */
 .carousel-caption {
   text-align: left;
   width: 100%;
   left: 0%;
   margin: 0 auto; }
-  /* line 201, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+  /* line 112, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/carousel */
   .carousel-caption p {
     width: 50%; }
     @media screen and (max-width: 768px) {
       .carousel-caption p {
         width: 100%; } }
+  /* line 120, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/carousel */
+  .carousel-caption h1, .carousel-caption h2, .carousel-caption h3 {
+    color: white; }
 
-/* line 210, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-#gallery {
-  margin-top: 20px; }
-
-/* line 214, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-.panel {
+/* line 2, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/panel */
+#accordion.panel-group .panel {
   background-color: transparent; }
-
-/* line 218, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-.panel-heading {
-  background-color: rgba(37, 112, 165, 0.4) !important;
-  color: white !important;
+/* line 6, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/panel */
+#accordion.panel-group .panel-heading {
+  background-color: rgba(25, 86, 117, 0.4);
+  color: white;
   padding: 0px; }
-  /* line 223, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-  .panel-heading a {
+  /* line 11, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/panel */
+  #accordion.panel-group .panel-heading a {
     display: block;
     padding: 10px; }
-    /* line 227, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-    .panel-heading a:hover {
-      background: #2570a5; }
-
-/* line 233, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-.panel-body, .well {
+    /* line 15, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/panel */
+    #accordion.panel-group .panel-heading a:hover {
+      background: #1a5775; }
+/* line 21, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/panel */
+#accordion.panel-group .panel-body, #accordion.panel-group .well {
   padding-bottom: 0px; }
 
-/* line 237, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-#insights {
-  min-height: 530px; }
+/* line 1, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/accordion */
+.accordiontoggle {
+  display: block; }
+  /* line 4, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/accordion */
+  .accordiontoggle:hover {
+    text-decoration: none; }
+  /* line 8, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/accordion */
+  .accordiontoggle:not([data-toggle="collapse"]) {
+    cursor: default; }
+    /* line 11, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/accordion */
+    .accordiontoggle:not([data-toggle="collapse"]):hover {
+      background: transparent; }
 
-/* line 241, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-#buy, #author, #insights {
-  padding: 20px 0 30px; }
-
-/* line 245, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-#buy {
-  min-height: 400px;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white; }
-
-/* line 251, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-.contact {
-  margin: 0px auto 30px;
-  padding: 10px 20px 20px;
-  text-align: center;
-  background-color: white;
-  color: #2570a5; }
-  /* line 257, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-  .contact p {
-    color: #2570a5;
-    font-size: 1.2em; }
-
-/* line 263, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 1, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
 #details {
   position: relative;
   top: 30;
@@ -6243,11 +6087,11 @@ footer {
   -webkit-transition: 0.3s ease-in-out opacity;
   transition: 0.3s ease-in-out opacity;
   z-index: 20; }
-  /* line 269, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+  /* line 7, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
   #details .note {
     max-width: 340px; }
 
-/* line 274, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 12, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
 #confirmation {
   z-index: 10;
   display: block;
@@ -6259,112 +6103,97 @@ footer {
   opacity: 0;
   -webkit-transition: 0.3s ease-in-out opacity;
   transition: 0.3s ease-in-out opacity; }
-  /* line 285, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+  /* line 23, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
   #confirmation h2 span {
     font-size: 2.5em;
     margin-bottom: 20px; }
 
-/* line 291, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-#signinform {
-  margin-bottom: 20px !important; }
-
-/* line 295, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-#signoutform {
-  display: none; }
-  /* line 298, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-  #signoutform h4 {
-    margin: 6px 0 0 15px;
-    float: left; }
-  /* line 303, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-  #signoutform .btn {
-    float: right;
-    margin-right: 15px; }
-
-/* line 310, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-body.signedin #signinform {
-  display: none; }
-/* line 314, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-body.signedin #signoutform {
-  display: block; }
-
-/* line 319, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-.accordiontoggle {
-  display: block; }
-  /* line 322, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-  .accordiontoggle:hover {
-    text-decoration: none; }
-  /* line 326, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-  .accordiontoggle:not([data-toggle="collapse"]) {
-    cursor: default; }
-    /* line 329, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-    .accordiontoggle:not([data-toggle="collapse"]):hover {
-      background: transparent; }
-
-/* line 336, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 30, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
 #buy .form-group {
   margin-bottom: 0px; }
-/* line 339, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 33, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
 #buy .small-label {
   text-align: left !important;
   font-size: 1.2em; }
-/* line 343, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 37, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
 #buy .small-input .input-group {
   width: 100px; }
-  /* line 346, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+  /* line 40, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
   #buy .small-input .input-group button {
     font-weight: 900;
     font-size: 18px;
     line-height: 20px;
     color: #2570a5;
     padding: 6px 10px 6px; }
-    /* line 353, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+    /* line 47, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
     #buy .small-input .input-group button#gMinus, #buy .small-input .input-group button#kMinus {
       font-weight: 600;
       padding: 5px 8px 7px; }
-/* line 360, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 54, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
 #buy button {
   margin-bottom: 10px; }
-/* line 364, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 58, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
 #buy #steps, #buy #check {
   -webkit-transition: 0.3s ease-in-out width;
   transition: 0.3s ease-in-out width; }
-/* line 368, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 62, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
 #buy .ccrow {
   padding-left: 30px; }
-  /* line 371, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+  /* line 65, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
   #buy .ccrow .cvcrow {
     margin-left: 6px; }
-/* line 376, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 70, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
 #buy #popcvc {
   cursor: pointer;
   color: white;
   display: inline-block; }
-/* line 383, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 77, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
 #buy input::-webkit-outer-spin-button, #buy input::-webkit-inner-spin-button {
   /* display: none; <- Crashes Chrome on hover */
   -webkit-appearance: none;
   margin: 0;
   /* <-- Apparently some margin are still there even though it's hidden */ }
-/* line 389, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 83, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
 #buy #check ul {
   list-style: none;
   padding-left: 10px;
   border-left: 2px solid white; }
-/* line 399, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+/* line 93, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
 #buy #choice ul {
   border-left: none;
   padding-left: 0px; }
-  /* line 403, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+  /* line 97, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
   #buy #choice ul li {
     border-bottom: 1px solid white;
     padding: 2px 0;
     font-size: 1.1em; }
-    /* line 409, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+    /* line 103, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
     #buy #choice ul li.total {
       border-bottom: 3px double white;
       font-weight: bold; }
-/* line 417, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-#buy #submit {
+/* line 111, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
+#buy label {
+  font-weight: normal; }
+/* line 115, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
+#buy legend {
+  color: #2570a5;
+  margin: 15px 0 10px;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 2px 6px;
+  text-transform: uppercase;
+  border-bottom: none;
+  background-color: white; }
+  /* line 125, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
+  #buy legend.first {
+    margin-top: 0px; }
+
+/* line 131, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/simplecheckout */
+.popover {
+  color: #2570a5 !important; }
+
+/* line 1, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
+.btn.process {
   margin: 10px 0 15px;
   background: #2570a5;
   /* Old browsers */
@@ -6382,64 +6211,44 @@ body.signedin #signoutform {
   /* W3C */
   background-size: 200% 200%;
   background-position: 100% 0%; }
-  /* line 429, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-  #buy #submit .loading {
+  /* line 13, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
+  .btn.process .loading {
     display: none; }
-  /* line 433, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-  #buy #submit.start {
+  /* line 17, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
+  .btn.process.start {
     -webkit-animation: loading 3s linear forwards; }
-    /* line 436, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-    #buy #submit.start .default {
+    /* line 20, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
+    .btn.process.start .default {
       display: none; }
-    /* line 440, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-    #buy #submit.start .loading {
+    /* line 24, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
+    .btn.process.start .loading {
       display: inline-block; }
-/* line 446, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-#buy label {
-  font-weight: normal; }
-/* line 450, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-#buy legend {
-  color: #2570a5;
-  margin: 15px 0 10px;
-  font-size: 1em;
-  font-weight: bold;
-  padding: 2px 6px;
-  text-transform: uppercase;
-  border-bottom: none;
-  background-color: white; }
-  /* line 460, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-  #buy legend.first {
-    margin-top: 0px; }
-
-/* line 466, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
-.popover {
-  color: #2570a5 !important; }
 
 @-webkit-keyframes loading {
-  /* line 471, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+  /* line 31, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
   0% {
     background-position: 100% 0%; }
 
-  /* line 472, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+  /* line 32, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
   20% {
     background-position: 60% 0%; }
 
-  /* line 473, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+  /* line 33, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
   50% {
     background-position: 40% 0%; }
 
-  /* line 474, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+  /* line 34, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
   80% {
     background-position: 5% 0%; }
 
-  /* line 475, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+  /* line 35, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
   100% {
     background-position: 0% 0%; } }
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
-  /* line 483, /Users/marcel/Sites/blueprint/blueprint/assets/scss/style.scss */
+  /* line 6, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/responsive */
   .header, .footer {
     padding-left: 0;
     padding-right: 0; } }
