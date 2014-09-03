@@ -6194,6 +6194,7 @@ body.signedin #signoutform {
 
 /* line 1, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
 .btn.process {
+  min-width: 133px;
   margin: 10px 0 15px;
   background: #2570a5;
   /* Old browsers */
@@ -6211,37 +6212,49 @@ body.signedin #signoutform {
   /* W3C */
   background-size: 200% 200%;
   background-position: 100% 0%; }
-  /* line 13, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
-  .btn.process .loading {
+  /* line 14, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
+  .btn.process .loading, .btn.process .finished {
     display: none; }
-  /* line 17, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
+  /* line 18, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
   .btn.process.start {
     -webkit-animation: loading 3s linear forwards; }
-    /* line 20, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
+    /* line 21, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
     .btn.process.start .default {
       display: none; }
-    /* line 24, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
+    /* line 25, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
     .btn.process.start .loading {
+      display: inline-block; }
+  /* line 30, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
+  .btn.process.end {
+    -webkit-animation: loading 3s linear forwards; }
+    /* line 33, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
+    .btn.process.end .default {
+      display: none; }
+    /* line 37, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
+    .btn.process.end .loading {
+      display: none; }
+    /* line 41, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
+    .btn.process.end .finished {
       display: inline-block; }
 
 @-webkit-keyframes loading {
-  /* line 31, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
+  /* line 48, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
   0% {
     background-position: 100% 0%; }
 
-  /* line 32, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
+  /* line 49, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
   20% {
     background-position: 60% 0%; }
 
-  /* line 33, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
+  /* line 50, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
   50% {
     background-position: 40% 0%; }
 
-  /* line 34, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
+  /* line 51, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
   80% {
     background-position: 5% 0%; }
 
-  /* line 35, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
+  /* line 52, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/buttons */
   100% {
     background-position: 0% 0%; } }
 

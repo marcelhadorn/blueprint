@@ -39,6 +39,37 @@ $(document).ready(function(){
    		// edit: Opera requires the "html" elm. animated
 	});
 
+
+	$('#submit a.btn').attr('disabled', 'disabled').addClass('pull-right');
+	$('#submit a.btn .default').text('Bestellung aufgeben');
+
+	$('.btn.process').click(function(){
+		var thisbtn = $(this);
+		
+		if (thisbtn.hasClass('end')) {
+			thisbtn.removeClass('end', 'start');
+		} else {
+			thisbtn.addClass('start');
+
+			setTimeout(function(){
+				thisbtn.addClass('end');
+				thisbtn.removeClass('start');
+			}, 3000);
+		}
+	});
+
+	$('#submit .btn.process').click(function(){
+		$(this).addClass('start');
+		setTimeout(function(){
+			$('#details').css({'opacity': '0', 'z-index': '10'});
+			$('#confirmation').css({'opacity': '1', 'z-index': '20'});
+		}, 3000);
+	});
+
+	$('#new').click(function(){
+		window.location.reload();
+	});
+
 	function upTotal() {
 		var pgross = $('span#pgross').text(),
 			pklein = $('span#pklein').text(),
@@ -175,7 +206,7 @@ $(document).ready(function(){
 		$('#payment').show();
 		$('#kkname').html($('input#inputNameKK').val());
 		$('#kknumber').html($('input#KKnr').val().substr(-4));
-		$('#submit').removeAttr('disabled');
+		$('#submit .btn').removeAttr('disabled');
 		$('#steps, #check').removeClass();
 		$('#steps').addClass('col-md-7');
 		$('#check').addClass('col-md-5');
@@ -186,17 +217,5 @@ $(document).ready(function(){
 		$('#steps, #check').removeClass();
 		$('#steps').addClass('col-md-8');
 		$('#check').addClass('col-md-4');
-	});
-
-	$('#submit').click(function(){
-		$(this).addClass('start');
-		setTimeout(function(){
-			$('#details').css({'opacity': '0', 'z-index': '10'});
-			$('#confirmation').css({'opacity': '1', 'z-index': '20'});
-		}, 3000);
-	});
-
-	$('#new').click(function(){
-		window.location.reload();
 	});
 });
