@@ -5653,6 +5653,13 @@ App: Blueprint, Author: Marcel Hadorn (@marc3llo)
     background-size: 1.692em 1.692em;
     background-position: left top; } }
 
+/* line 95, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/visualgrid */
+html.pixelgrid {
+  background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.15) 0px, rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0) 9px, rgba(255, 255, 255, 0.15) 10px, rgba(255, 255, 255, 0) 10px, rgba(255, 255, 255, 0) 19px, rgba(255, 255, 255, 0.15) 20px, rgba(255, 255, 255, 0) 20px, rgba(255, 255, 255, 0) 29px, rgba(255, 255, 255, 0.15) 30px, rgba(255, 255, 255, 0) 30px, rgba(255, 255, 255, 0) 39px, rgba(255, 255, 255, 0.15) 40px, rgba(255, 255, 255, 0) 40px, rgba(255, 255, 255, 0) 49px, rgba(255, 255, 255, 0.35) 50px, rgba(255, 255, 255, 0) 50px), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), transparent 0px, rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0) 4px, rgba(255, 255, 255, 0.35) 5px, rgba(255, 255, 255, 0) 5px, rgba(255, 255, 255, 0) 14px, rgba(255, 255, 255, 0.15) 15px, rgba(255, 255, 255, 0) 15px, rgba(255, 255, 255, 0) 24px, rgba(255, 255, 255, 0.15) 25px, rgba(255, 255, 255, 0) 25px, rgba(255, 255, 255, 0) 34px, rgba(255, 255, 255, 0.15) 35px, rgba(255, 255, 255, 0) 35px, rgba(255, 255, 255, 0) 44px, rgba(255, 255, 255, 0.15) 45px, rgba(255, 255, 255, 0) 45px, rgba(255, 255, 255, 0) 54px, rgba(255, 255, 255, 0.15) 55px, rgba(255, 255, 255, 0) 55px), #2c94c9;
+  background-size: 100% 50px, 50px 100%, 100% 100%;
+  /* 7.692 - 2.308 = 5.384 */
+  background-position: center 5px, center 5px, center center; }
+
 /* line 1, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
 html {
   background: #2c94c9;
@@ -5662,7 +5669,7 @@ html {
 body {
   padding-top: 0px;
   padding-bottom: 20px;
-  background: #2c94c9;
+  background: transparent;
   min-height: 100%; }
 
 /* line 13, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
@@ -5774,7 +5781,7 @@ input, textarea, .form-control {
 
 /* line 1, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
 h2.brand {
-  margin: 6px 0px 0px; }
+  margin: 15px 0px 0px; }
   /* line 4, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
   h2.brand img, h2.brand span {
     float: left; }
@@ -5784,34 +5791,35 @@ h2.brand {
     height: 40px;
     border: solid 1px white;
     border-radius: 8px;
-    margin: -7px 12px 0 0;
     border-radius: 8px;
     background: #1e4e80;
-    margin: -1px 12px 0px 0; }
+    margin: 0px 9px 0px 0; }
 
-/* line 18, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
+/* line 17, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
 .navbar {
   border-bottom: 1px solid #e5e5e5;
   margin: 0;
-  background-color: #2c94c9; }
+  background: rgba(44, 148, 201, 0.3); }
+
+/* line 22, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
+.nav li a {
+  border: 1px solid transparent;
+  padding: 22.5px 20px 22.5px;
+  font-size: 1.7rem; }
 
 /* line 23, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
-.nav li a {
-  border: 1px solid transparent; }
-
-/* line 24, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
 .nav li.active a {
   background: #1e4e80;
   color: white;
   border: 1px solid white; }
-  /* line 24, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
+  /* line 23, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
   .nav li.active a span.glyphicon {
     margin-right: 5px; }
 
-/* line 26, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
+/* line 25, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
 .nav {
   margin: 0px; }
-  /* line 29, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
+  /* line 28, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
   .nav li a {
     border-top-width: 0px !important;
     border-bottom-width: 0px !important; }
@@ -5870,40 +5878,41 @@ h2.brand {
     margin-left: 15px; }
 /* line 56, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
 #gallery .thumbnail, #gallery .cellobox, .imagecont .thumbnail, .imagecont .cellobox {
-  background: rgba(44, 148, 201, 0.4); }
-  /* line 59, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+  background: rgba(44, 148, 201, 0.4);
+  background-color: rgba(25, 86, 117, 0.4); }
+  /* line 60, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
   #gallery .thumbnail:hover, #gallery .cellobox:hover, .imagecont .thumbnail:hover, .imagecont .cellobox:hover {
     background-color: rgba(255, 255, 255, 0.3);
     border-color: white; }
-  /* line 64, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+  /* line 65, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
   #gallery .thumbnail .glyphicon, #gallery .cellobox .glyphicon, .imagecont .thumbnail .glyphicon, .imagecont .cellobox .glyphicon {
     position: relative;
     top: 50% !important;
     left: 50%;
     margin: -38px 0 0 -35px; }
-    /* line 69, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+    /* line 70, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
     #gallery .thumbnail .glyphicon:before, #gallery .cellobox .glyphicon:before, .imagecont .thumbnail .glyphicon:before, .imagecont .cellobox .glyphicon:before {
       font-size: 5em;
       color: white; }
-/* line 76, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+/* line 77, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
 #gallery .cellobox, .imagecont .cellobox {
   background: white; }
-  /* line 79, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+  /* line 80, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
   #gallery .cellobox:hover, .imagecont .cellobox:hover {
     background-color: rgba(255, 255, 255, 0.8); }
-  /* line 83, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+  /* line 84, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
   #gallery .cellobox .glyphicon, .imagecont .cellobox .glyphicon {
     position: relative;
     margin-top: 41%; }
-    /* line 87, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+    /* line 88, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
     #gallery .cellobox .glyphicon:before, .imagecont .cellobox .glyphicon:before {
       color: #1e4e80; }
 
-/* line 94, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+/* line 95, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
 #gallery.row {
   margin-top: 0px; }
 
-/* line 99, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
+/* line 100, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
 .imagecont .thumbnail:hover {
   background-color: rgba(37, 112, 165, 0.4); }
 
@@ -5962,7 +5971,7 @@ body.signedin #signoutform {
   transition: 1s ease-in-out left; }
 /* line 19, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/carousel */
 .carousel-inner .thumb {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 10px;
   background-size: cover;
   height: 550px;
@@ -5990,7 +5999,7 @@ body.signedin #signoutform {
   /* line 49, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/carousel */
   .carousel-inner .thumb p {
     position: absolute;
-    top: 30px;
+    top: 40px;
     margin-left: 15px; }
 /* line 57, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/carousel */
 .carousel-inner .item:nth-child(2) .thumb {
@@ -6054,7 +6063,7 @@ body.signedin #signoutform {
 #accordion.panel-group .panel-heading {
   background-color: rgba(25, 86, 117, 0.4);
   color: white;
-  padding: 0px; }
+  padding: 1px 0px; }
   /* line 11, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/panel */
   #accordion.panel-group .panel-heading a {
     display: block;

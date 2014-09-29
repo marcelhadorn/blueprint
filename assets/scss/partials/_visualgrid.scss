@@ -92,3 +92,54 @@ html.showgrid {
     }
 }
 
+html.pixelgrid {
+            background: -webkit-linear-gradient(
+                            90deg, 
+                            $pixelgrid               0px, 
+                            $grid-transparent        0px,
+                            $grid-transparent        9px,
+                            $pixelgrid              10px, 
+                            $grid-transparent       10px,
+                            $grid-transparent       19px, 
+                            $pixelgrid              20px, 
+                            $grid-transparent       20px,
+                            $grid-transparent       29px,
+                            $pixelgrid              30px, 
+                            $grid-transparent       30px,
+                            $grid-transparent       39px,
+                            $pixelgrid              40px, 
+                            $grid-transparent       40px,
+                            $grid-transparent       49px,
+                            $pixelgrid-strong       50px, 
+                            $grid-transparent       50px
+                        ),
+                        -webkit-linear-gradient(
+                            0deg,
+                            $grid-transparent,
+                            transparent              0px, 
+                            $grid-transparent        0px,
+                            $grid-transparent        4px,
+                            $pixelgrid-strong        5px, 
+                            $grid-transparent        5px,
+                            $grid-transparent       14px,
+                            $pixelgrid              15px, 
+                            $grid-transparent       15px,
+                            $grid-transparent       24px, 
+                            $pixelgrid              25px, 
+                            $grid-transparent       25px,
+                            $grid-transparent       34px,
+                            $pixelgrid              35px, 
+                            $grid-transparent       35px,
+                            $grid-transparent       44px,
+                            $pixelgrid              45px, 
+                            $grid-transparent       45px,
+                            $grid-transparent       54px,
+                            $pixelgrid              55px, 
+                            $grid-transparent       55px
+                        ),
+                        $body-bg;
+            background-size: 100% 50px, 50px 100%, 100% 100%; /* 7.692 - 2.308 = 5.384 */
+            background-position: center 5px, center 5px, center center;
+
+}
+

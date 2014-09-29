@@ -6,7 +6,8 @@ All the Blueprint Magic
 */
 
 // SETTINGS!
-var showgrid = true;
+var showgrid = false;
+var pixelgrid = true;
 
 
 // Edit below only if you know what you're doing.
@@ -14,6 +15,9 @@ $(document).ready(function(){
 
 	if(showgrid == true){
 		$('html').addClass('showgrid');
+	}
+	if(pixelgrid == true){
+		$('html').addClass('pixelgrid');
 	}
 
 	//Getting data from the data.json file

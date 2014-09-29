@@ -6,7 +6,7 @@
     .panel-heading {
         background-color: transparentize(darken($body-bg, 20%),.6);
         color: $text-color;
-        padding: 0px;
+        padding: 1px 0px;
     
         a {
             display: block;
