@@ -5630,7 +5630,7 @@ App: Blueprint, Author: Marcel Hadorn (@marc3llo)
 @media (min-width: 1170px) {
   /* line 3, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/visualgrid */
   html.showgrid body {
-    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04) 4.545%, rgba(255, 255, 255, 0) 4.545%, rgba(255, 255, 255, 0) 100%), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 34.5%, rgba(255, 255, 255, 0.12) 34.5%, rgba(255, 255, 255, 0.12) 35.5%, rgba(255, 255, 255, 0.05) 35.5%, rgba(255, 255, 255, 0.05) 65.5%, rgba(255, 255, 255, 0.12) 65.5%, rgba(255, 255, 255, 0.12) 66.5%, rgba(255, 255, 255, 0) 66.5%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04) 4.545%, rgba(255, 255, 255, 0) 4.545%, rgba(255, 255, 255, 0) 100%), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 34.5%, rgba(255, 255, 255, 0.12) 34.5%, rgba(255, 255, 255, 0.12) 35.5%, rgba(255, 255, 255, 0.05) 35.5%, rgba(255, 255, 255, 0.05) 64%, rgba(255, 255, 255, 0.12) 64%, rgba(255, 255, 255, 0.12) 65.5%, rgba(255, 255, 255, 0) 65.5%, rgba(255, 255, 255, 0) 100%);
     background-size: 1.692em 1.692em, 6.992em 7.692em;
     /* 7.692 - 2.308 = 5.384 */
     background-position: left top, center top; } }
@@ -5688,14 +5688,14 @@ p {
     font-size: 0.8em !important; }
 
 /* line 25, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
-a:not(.accordiontoggle, .btn) {
+a:not(.accordiontoggle):not(.btn) {
   color: white;
   border-bottom: 2px solid rgba(255, 255, 255, 0.5);
   cursor: pointer; }
   /* line 30, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
-  a:not(.accordiontoggle, .btn):hover {
+  a:not(.accordiontoggle):not(.btn):hover {
     text-decoration: none;
-    border-bottom: 2px solid rgba(255, 255, 255, 0); }
+    border-bottom: 2px solid white; }
 
 /* line 36, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
 .browsehappy {
