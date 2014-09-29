@@ -92,7 +92,7 @@ html.showgrid {
     }
 }
 
-html.pixelgrid {
+html.pixelgrid, html.pixelgrid .navbar {
             background: -webkit-linear-gradient(
                             90deg, 
                             $pixelgrid               0px, 
@@ -139,7 +139,10 @@ html.pixelgrid {
                         ),
                         $body-bg;
             background-size: 100% 50px, 50px 100%, 100% 100%; /* 7.692 - 2.308 = 5.384 */
-            background-position: center 5px, center 5px, center center;
+            background-position: center top, center 5px, center center;
 
 }
 
+html.pixelgrid .navbar {
+    background-position: center top, center 5px, center center;
+}

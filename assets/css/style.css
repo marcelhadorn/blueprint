@@ -5654,11 +5654,15 @@ App: Blueprint, Author: Marcel Hadorn (@marc3llo)
     background-position: left top; } }
 
 /* line 95, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/visualgrid */
-html.pixelgrid {
+html.pixelgrid, html.pixelgrid .navbar {
   background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.15) 0px, rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0) 9px, rgba(255, 255, 255, 0.15) 10px, rgba(255, 255, 255, 0) 10px, rgba(255, 255, 255, 0) 19px, rgba(255, 255, 255, 0.15) 20px, rgba(255, 255, 255, 0) 20px, rgba(255, 255, 255, 0) 29px, rgba(255, 255, 255, 0.15) 30px, rgba(255, 255, 255, 0) 30px, rgba(255, 255, 255, 0) 39px, rgba(255, 255, 255, 0.15) 40px, rgba(255, 255, 255, 0) 40px, rgba(255, 255, 255, 0) 49px, rgba(255, 255, 255, 0.35) 50px, rgba(255, 255, 255, 0) 50px), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), transparent 0px, rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0) 4px, rgba(255, 255, 255, 0.35) 5px, rgba(255, 255, 255, 0) 5px, rgba(255, 255, 255, 0) 14px, rgba(255, 255, 255, 0.15) 15px, rgba(255, 255, 255, 0) 15px, rgba(255, 255, 255, 0) 24px, rgba(255, 255, 255, 0.15) 25px, rgba(255, 255, 255, 0) 25px, rgba(255, 255, 255, 0) 34px, rgba(255, 255, 255, 0.15) 35px, rgba(255, 255, 255, 0) 35px, rgba(255, 255, 255, 0) 44px, rgba(255, 255, 255, 0.15) 45px, rgba(255, 255, 255, 0) 45px, rgba(255, 255, 255, 0) 54px, rgba(255, 255, 255, 0.15) 55px, rgba(255, 255, 255, 0) 55px), #3183CC;
   background-size: 100% 50px, 50px 100%, 100% 100%;
   /* 7.692 - 2.308 = 5.384 */
-  background-position: center 5px, center 5px, center center; }
+  background-position: center top, center 5px, center center; }
+
+/* line 146, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/visualgrid */
+html.pixelgrid .navbar {
+  background-position: center top, center 5px, center center; }
 
 /* line 1, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
 html {
@@ -5667,7 +5671,7 @@ html {
 
 /* line 6, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
 body {
-  padding-top: 0px;
+  padding-top: 5px;
   padding-bottom: 20px;
   background: transparent;
   min-height: 100%; }
@@ -5714,49 +5718,50 @@ a:not(.accordiontoggle, .btn) {
   background-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
-  padding-bottom: 10px !important; }
+  padding-bottom: 10px !important;
+  border-color: white; }
 
 /* Custom page header */
-/* line 59, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+/* line 60, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
 header {
   height: 55px; }
 
 /* Make the masthead heading the same height as the navigation */
-/* line 64, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+/* line 65, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
 header h2 {
   line-height: 40px; }
 
-/* line 68, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+/* line 69, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
 footer {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 19px;
   border-top: 1px solid #e5e5e5; }
 
-/* line 75, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+/* line 76, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
 #wrapper {
   margin-top: 10px; }
 
-/* line 79, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+/* line 80, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
 .footer {
   color: #777; }
 
-/* line 83, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+/* line 84, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
 .jumbotron {
   border: 1px solid white; }
 
-/* line 87, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+/* line 88, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
 .teaser {
   border-bottom: 1px solid white; }
 
-/* line 91, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+/* line 92, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
 .contact {
   margin: 0px auto 30px;
   padding: 10px 20px 20px;
   text-align: center;
   background-color: white;
   color: #2570a5; }
-  /* line 97, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+  /* line 98, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
   .contact p {
     color: #2570a5;
     font-size: 1.2em; }
@@ -5782,30 +5787,28 @@ input, textarea, .form-control {
 
 /* line 1, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
 h2.brand {
-  margin: 15px 0px 0px; }
+  margin: 10px 0px 0px; }
   /* line 4, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
   h2.brand img, h2.brand span {
     float: left; }
   /* line 8, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
   h2.brand img {
-    width: 40px;
-    height: 40px;
-    border: solid 1px white;
+    width: 50px;
+    height: 50px;
     border-radius: 8px;
     border-radius: 8px;
-    background: #21639D;
-    margin: 0px 9px 0px 0; }
+    margin: -4px 9px 0px 0px; }
 
 /* line 17, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
 .navbar {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid white;
   margin: 0;
-  background: rgba(49, 131, 204, 0.3); }
+  background: #3183CC; }
 
 /* line 22, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
 .nav li a {
   border: 1px solid transparent;
-  padding: 22.5px 20px 22.5px;
+  padding: 20px;
   font-size: 1.7rem; }
 
 /* line 23, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
@@ -5972,10 +5975,10 @@ body.signedin #signoutform {
   transition: 1s ease-in-out left; }
 /* line 19, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/carousel */
 .carousel-inner .thumb {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 10px;
   background-size: cover;
-  height: 550px;
+  height: 560px;
   width: 100%;
   background-color: rgba(29, 78, 121, 0.4);
   border: 1px solid #184165;
@@ -6059,20 +6062,21 @@ body.signedin #signoutform {
 
 /* line 2, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/panel */
 #accordion.panel-group .panel {
-  background-color: transparent; }
-/* line 6, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/panel */
+  background-color: transparent;
+  border-color: white; }
+/* line 7, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/panel */
 #accordion.panel-group .panel-heading {
-  background-color: rgba(29, 78, 121, 0.4);
+  background-color: rgba(19, 52, 80, 0.4);
   color: white;
   padding: 1px 0px; }
-  /* line 11, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/panel */
+  /* line 12, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/panel */
   #accordion.panel-group .panel-heading a {
     display: block;
     padding: 10px; }
-    /* line 15, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/panel */
+    /* line 16, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/panel */
     #accordion.panel-group .panel-heading a:hover {
       background: #1d4f7a; }
-/* line 21, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/panel */
+/* line 22, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/panel */
 #accordion.panel-group .panel-body, #accordion.panel-group .well {
   padding-bottom: 0px; }
 
