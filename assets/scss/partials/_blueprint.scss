@@ -29,7 +29,7 @@ $gray-lighter:           lighten(#000, 93.5%) !default; // #eee
 // Brand colors
 // -------------------------
 
-$brand-primary:         #1e4e80 !default;
+$brand-primary:         #21639D !default; // #1e4e80
 $brand-success:         #5cb85c !default;
 $brand-warning:         #f0ad4e !default;
 $brand-danger:          #e25e47 !default;
@@ -38,14 +38,14 @@ $brand-info:            #2570a5 !default;
 // Scaffolding
 // -------------------------
 
-$body-bg:               #2c94c9 !default;
+$body-bg:               #3183CC !default; // #2c94c9
 $text-color:            white !default;
 
 // Links
 // -------------------------
 
-$link-color:            $brand-primary !default;
-$link-hover-color:      darken($link-color, 15%) !default;
+$link-color:            $text-color !default;
+$link-hover-color:      darken($brand-primary, 15%) !default;
 
 // Typography
 // -------------------------

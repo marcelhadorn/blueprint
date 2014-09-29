@@ -278,7 +278,7 @@ body {
   font-size: 14px;
   line-height: 1.42857;
   color: white;
-  background-color: #2c94c9; }
+  background-color: #3183CC; }
 
 /* line 39, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/scaffolding */
 input, button, select, textarea {
@@ -288,11 +288,11 @@ input, button, select, textarea {
 
 /* line 48, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/scaffolding */
 a {
-  color: #1e4e80;
+  color: white;
   text-decoration: none; }
   /* line 53, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/scaffolding */
   a:hover, a:focus {
-    color: #0f2942;
+    color: #143b5e;
     text-decoration: underline; }
   /* line 58, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/scaffolding */
   a:focus {
@@ -322,7 +322,7 @@ img {
 .img-thumbnail {
   padding: 0px;
   line-height: 1.42857;
-  background-color: #2c94c9;
+  background-color: #3183CC;
   border: 1px solid white;
   border-radius: 2px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -449,11 +449,11 @@ cite {
 
 /* line 601, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/mixins */
 .text-primary {
-  color: #1e4e80; }
+  color: #21639D; }
 
 /* line 604, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/mixins */
 a.text-primary:hover {
-  color: #143557; }
+  color: #184973; }
 
 /* line 601, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/mixins */
 .text-success {
@@ -493,11 +493,11 @@ a.text-danger:hover {
 
 /* line 589, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/mixins */
 .bg-primary {
-  background-color: #1e4e80; }
+  background-color: #21639D; }
 
 /* line 592, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/mixins */
 a.bg-primary:hover {
-  background-color: #143557; }
+  background-color: #184973; }
 
 /* line 589, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/mixins */
 .bg-success {
@@ -1468,7 +1468,7 @@ th {
     border-top: 2px solid white; }
   /* line 56, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/tables */
   .table .table {
-    background-color: #2c94c9; }
+    background-color: #3183CC; }
 
 /* line 70, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/tables */
 .table-condensed > thead > tr > th, .table-condensed > thead > tr > td, .table-condensed > tbody > tr > th, .table-condensed > tbody > tr > td, .table-condensed > tfoot > tr > th, .table-condensed > tfoot > tr > td {
@@ -1998,17 +1998,17 @@ textarea.input-lg, .input-group-lg > textarea.form-control, .input-group-lg > te
 /* line 56, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/buttons */
 .btn-primary {
   color: #fff;
-  background-color: #1e4e80;
+  background-color: #21639D;
   border-color: white; }
   /* line 504, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/mixins */
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
     color: #fff;
-    background-color: #163b5f;
+    background-color: #1a4e7b;
     border-color: #e0e0e0; }
   /* line 509, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/mixins */
   .open .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #163b5f;
+    background-color: #1a4e7b;
     border-color: #e0e0e0; }
   /* line 515, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/mixins */
   .btn-primary:active, .btn-primary.active {
@@ -2018,11 +2018,11 @@ textarea.input-lg, .input-group-lg > textarea.form-control, .input-group-lg > te
     background-image: none; }
   /* line 528, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/mixins */
   .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
-    background-color: #1e4e80;
+    background-color: #21639D;
     border-color: white; }
   /* line 534, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/mixins */
   .btn-primary .badge {
-    color: #1e4e80;
+    color: #21639D;
     background-color: #fff; }
 
 /* line 60, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/buttons */
@@ -2147,7 +2147,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control, .input-group-lg > te
 
 /* line 81, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/buttons */
 .btn-link {
-  color: #1e4e80;
+  color: white;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0; }
@@ -2161,7 +2161,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control, .input-group-lg > te
     border-color: transparent; }
   /* line 101, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/buttons */
   .btn-link:hover, .btn-link:focus {
-    color: #0f2942;
+    color: #143b5e;
     text-decoration: underline;
     background-color: transparent; }
   /* line 109, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/buttons */
@@ -3116,7 +3116,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
   color: #fff;
   text-decoration: none;
   outline: 0;
-  background-color: #1e4e80; }
+  background-color: #21639D; }
 
 /* line 102, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/dropdowns */
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
@@ -3496,7 +3496,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
   /* line 48, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/navs */
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     background-color: #eeeeee;
-    border-color: #1e4e80; }
+    border-color: white; }
   /* line 59, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/navs */
   .nav .nav-divider {
     height: 1px;
@@ -3526,7 +3526,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
     /* line 98, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/navs */
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
       color: #555555;
-      background-color: #2c94c9;
+      background-color: #3183CC;
       border: 1px solid #ddd;
       border-bottom-color: transparent;
       cursor: default; }
@@ -3543,7 +3543,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
   /* line 133, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/navs */
   .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     color: #fff;
-    background-color: #1e4e80; }
+    background-color: #21639D; }
 
 /* line 144, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/navs */
 .nav-stacked > li {
@@ -3593,7 +3593,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
       border-radius: 2px 2px 0 0; }
     /* line 212, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/navs */
     .nav-tabs-justified > .active > a, .nav-tabs-justified > .active > .nav-tabs.nav-justified, .nav-tabs-justified > .active > .nav-tabs.nav-justified, .nav-tabs-justified > .active > a:hover, .nav-tabs-justified > .active > .nav-tabs.nav-justified, .nav-tabs-justified > .active > .nav-tabs.nav-justified, .nav-tabs-justified > .active > a:focus, .nav-tabs-justified > .active > .nav-tabs.nav-justified, .nav-tabs-justified > .active > .nav-tabs.nav-justified {
-      border-bottom-color: #2c94c9; } }
+      border-bottom-color: #3183CC; } }
 
 /* line 224, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/navs */
 .tab-content > .tab-pane {
@@ -4047,7 +4047,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
       padding: 6px 12px;
       line-height: 1.42857;
       text-decoration: none;
-      color: #1e4e80;
+      color: white;
       background-color: #fff;
       border: 1px solid #ddd;
       margin-left: -1px; }
@@ -4062,15 +4062,15 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
       border-top-right-radius: 2px; }
   /* line 42, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/pagination */
   .pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
-    color: #0f2942;
+    color: #143b5e;
     background-color: #eeeeee;
     border-color: #ddd; }
   /* line 53, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/pagination */
   .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
     z-index: 2;
     color: #fff;
-    background-color: #1e4e80;
-    border-color: #1e4e80;
+    background-color: #21639D;
+    border-color: #21639D;
     cursor: default; }
   /* line 68, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/pagination */
   .pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
@@ -4178,10 +4178,10 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 
 /* line 46, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/labels */
 .label-primary {
-  background-color: #1e4e80; }
+  background-color: #21639D; }
   /* line 579, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/mixins */
   .label-primary[href]:hover, .label-primary[href]:focus {
-    background-color: #143557; }
+    background-color: #184973; }
 
 /* line 50, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/labels */
 .label-success {
@@ -4245,7 +4245,7 @@ a.badge:hover, a.badge:focus {
 
 /* line 49, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/badges */
 a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
-  color: #1e4e80;
+  color: white;
   background-color: #fff; }
 
 /* line 53, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/badges */
@@ -4290,7 +4290,7 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
   padding: 0px;
   margin-bottom: 20px;
   line-height: 1.42857;
-  background-color: #2c94c9;
+  background-color: #3183CC;
   border: 1px solid white;
   border-radius: 2px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -4309,7 +4309,7 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
 
 /* line 36, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/thumbnails */
 a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
-  border-color: #1e4e80; }
+  border-color: white; }
 
 /* line 9, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/alerts */
 .alert {
@@ -4426,7 +4426,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
   line-height: 20px;
   color: #fff;
   text-align: center;
-  background-color: #1e4e80;
+  background-color: #21639D;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -4546,19 +4546,19 @@ a.list-group-item {
   /* line 63, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/list-group */
   a.list-group-item:hover, a.list-group-item:focus {
     text-decoration: none;
-    background-color: #1e4e80; }
+    background-color: #21639D; }
   /* line 71, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/list-group */
   a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
     z-index: 2;
     color: white;
-    background-color: #1e4e80;
+    background-color: #21639D;
     border-color: white; }
     /* line 78, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/list-group */
     a.list-group-item.active .list-group-item-heading, a.list-group-item.active:hover .list-group-item-heading, a.list-group-item.active:focus .list-group-item-heading {
       color: inherit; }
     /* line 81, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/list-group */
     a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .list-group-item-text, a.list-group-item.active:focus .list-group-item-text {
-      color: #87b5e3; }
+      color: #9fc8eb; }
 
 /* line 465, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/mixins */
 .list-group-item-success {
@@ -4810,18 +4810,18 @@ a.list-group-item-danger {
 
 /* line 216, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/panels */
 .panel-primary {
-  border-color: #1e4e80; }
+  border-color: #21639D; }
   /* line 409, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/mixins */
   .panel-primary > .panel-heading {
     color: #fff;
-    background-color: #1e4e80;
-    border-color: #1e4e80; }
+    background-color: #21639D;
+    border-color: #21639D; }
     /* line 414, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/mixins */
     .panel-primary > .panel-heading + .panel-collapse .panel-body {
-      border-top-color: #1e4e80; }
+      border-top-color: #21639D; }
   /* line 419, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/mixins */
   .panel-primary > .panel-footer + .panel-collapse .panel-body {
-    border-bottom-color: #1e4e80; }
+    border-bottom-color: #21639D; }
 
 /* line 219, /Users/marcel/Sites/blueprint/blueprint/assets/scss/bootstrap/bootstrap/panels */
 .panel-success {
@@ -5655,14 +5655,14 @@ App: Blueprint, Author: Marcel Hadorn (@marc3llo)
 
 /* line 95, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/visualgrid */
 html.pixelgrid {
-  background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.15) 0px, rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0) 9px, rgba(255, 255, 255, 0.15) 10px, rgba(255, 255, 255, 0) 10px, rgba(255, 255, 255, 0) 19px, rgba(255, 255, 255, 0.15) 20px, rgba(255, 255, 255, 0) 20px, rgba(255, 255, 255, 0) 29px, rgba(255, 255, 255, 0.15) 30px, rgba(255, 255, 255, 0) 30px, rgba(255, 255, 255, 0) 39px, rgba(255, 255, 255, 0.15) 40px, rgba(255, 255, 255, 0) 40px, rgba(255, 255, 255, 0) 49px, rgba(255, 255, 255, 0.35) 50px, rgba(255, 255, 255, 0) 50px), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), transparent 0px, rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0) 4px, rgba(255, 255, 255, 0.35) 5px, rgba(255, 255, 255, 0) 5px, rgba(255, 255, 255, 0) 14px, rgba(255, 255, 255, 0.15) 15px, rgba(255, 255, 255, 0) 15px, rgba(255, 255, 255, 0) 24px, rgba(255, 255, 255, 0.15) 25px, rgba(255, 255, 255, 0) 25px, rgba(255, 255, 255, 0) 34px, rgba(255, 255, 255, 0.15) 35px, rgba(255, 255, 255, 0) 35px, rgba(255, 255, 255, 0) 44px, rgba(255, 255, 255, 0.15) 45px, rgba(255, 255, 255, 0) 45px, rgba(255, 255, 255, 0) 54px, rgba(255, 255, 255, 0.15) 55px, rgba(255, 255, 255, 0) 55px), #2c94c9;
+  background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.15) 0px, rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0) 9px, rgba(255, 255, 255, 0.15) 10px, rgba(255, 255, 255, 0) 10px, rgba(255, 255, 255, 0) 19px, rgba(255, 255, 255, 0.15) 20px, rgba(255, 255, 255, 0) 20px, rgba(255, 255, 255, 0) 29px, rgba(255, 255, 255, 0.15) 30px, rgba(255, 255, 255, 0) 30px, rgba(255, 255, 255, 0) 39px, rgba(255, 255, 255, 0.15) 40px, rgba(255, 255, 255, 0) 40px, rgba(255, 255, 255, 0) 49px, rgba(255, 255, 255, 0.35) 50px, rgba(255, 255, 255, 0) 50px), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), transparent 0px, rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0) 4px, rgba(255, 255, 255, 0.35) 5px, rgba(255, 255, 255, 0) 5px, rgba(255, 255, 255, 0) 14px, rgba(255, 255, 255, 0.15) 15px, rgba(255, 255, 255, 0) 15px, rgba(255, 255, 255, 0) 24px, rgba(255, 255, 255, 0.15) 25px, rgba(255, 255, 255, 0) 25px, rgba(255, 255, 255, 0) 34px, rgba(255, 255, 255, 0.15) 35px, rgba(255, 255, 255, 0) 35px, rgba(255, 255, 255, 0) 44px, rgba(255, 255, 255, 0.15) 45px, rgba(255, 255, 255, 0) 45px, rgba(255, 255, 255, 0) 54px, rgba(255, 255, 255, 0.15) 55px, rgba(255, 255, 255, 0) 55px), #3183CC;
   background-size: 100% 50px, 50px 100%, 100% 100%;
   /* 7.692 - 2.308 = 5.384 */
   background-position: center 5px, center 5px, center center; }
 
 /* line 1, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
 html {
-  background: #2c94c9;
+  background: #3183CC;
   height: 100%; }
 
 /* line 6, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
@@ -5682,15 +5682,16 @@ p {
   /* line 20, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
   p.lead span {
     font-size: 0.8em !important; }
-    /* line 23, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
-    p.lead span a {
-      color: white;
-      border-bottom: 2px solid rgba(255, 255, 255, 0.5);
-      cursor: pointer; }
-      /* line 28, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
-      p.lead span a:hover {
-        text-decoration: none;
-        border-bottom: 2px solid rgba(255, 255, 255, 0); }
+
+/* line 25, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+a:not(.accordiontoggle, .btn) {
+  color: white;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  cursor: pointer; }
+  /* line 30, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
+  a:not(.accordiontoggle, .btn):hover {
+    text-decoration: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0); }
 
 /* line 36, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/basic */
 .browsehappy {
@@ -5765,13 +5766,13 @@ input, textarea, .form-control {
   -webkit-box-shadow: none;
   box-shadow: none;
   color: white;
-  background: rgba(30, 78, 128, 0.1); }
+  background: rgba(33, 99, 157, 0.1); }
   /* line 6, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/forms */
   input:focus, textarea:focus, .form-control:focus {
     -webkit-outline: none !important;
     border-color: white;
     background-color: white;
-    color: #1e4e80; }
+    color: #21639D; }
     /* line 13, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/forms */
     input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder, .form-control:focus::-webkit-input-placeholder {
       color: #57a5d9; }
@@ -5792,14 +5793,14 @@ h2.brand {
     border: solid 1px white;
     border-radius: 8px;
     border-radius: 8px;
-    background: #1e4e80;
+    background: #21639D;
     margin: 0px 9px 0px 0; }
 
 /* line 17, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
 .navbar {
   border-bottom: 1px solid #e5e5e5;
   margin: 0;
-  background: rgba(44, 148, 201, 0.3); }
+  background: rgba(49, 131, 204, 0.3); }
 
 /* line 22, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
 .nav li a {
@@ -5809,7 +5810,7 @@ h2.brand {
 
 /* line 23, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
 .nav li.active a {
-  background: #1e4e80;
+  background: #21639D;
   color: white;
   border: 1px solid white; }
   /* line 23, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/nav */
@@ -5837,7 +5838,7 @@ h2.brand {
   overflow-y: scroll;
   -webkit-transition: 0.5s cubic-bezier(0.52, -0.11, 0.54, 1.17) all;
   transition: 0.5s cubic-bezier(0.52, -0.11, 0.54, 1.17) all;
-  background-color: rgba(44, 148, 201, 0.7); }
+  background-color: rgba(49, 131, 204, 0.7); }
   /* line 14, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
   .backdrop.in {
     display: block; }
@@ -5878,8 +5879,8 @@ h2.brand {
     margin-left: 15px; }
 /* line 56, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
 #gallery .thumbnail, #gallery .cellobox, .imagecont .thumbnail, .imagecont .cellobox {
-  background: rgba(44, 148, 201, 0.4);
-  background-color: rgba(25, 86, 117, 0.4); }
+  background: rgba(49, 131, 204, 0.4);
+  background-color: rgba(29, 78, 121, 0.4); }
   /* line 60, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
   #gallery .thumbnail:hover, #gallery .cellobox:hover, .imagecont .thumbnail:hover, .imagecont .cellobox:hover {
     background-color: rgba(255, 255, 255, 0.3);
@@ -5906,7 +5907,7 @@ h2.brand {
     margin-top: 41%; }
     /* line 88, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
     #gallery .cellobox .glyphicon:before, .imagecont .cellobox .glyphicon:before {
-      color: #1e4e80; }
+      color: #21639D; }
 
 /* line 95, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/gallery */
 #gallery.row {
@@ -5976,8 +5977,8 @@ body.signedin #signoutform {
   background-size: cover;
   height: 550px;
   width: 100%;
-  background-color: rgba(25, 86, 117, 0.4);
-  border: 1px solid #154760;
+  background-color: rgba(29, 78, 121, 0.4);
+  border: 1px solid #184165;
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); }
   @media screen and (max-width: 1024px) {
@@ -6061,7 +6062,7 @@ body.signedin #signoutform {
   background-color: transparent; }
 /* line 6, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/panel */
 #accordion.panel-group .panel-heading {
-  background-color: rgba(25, 86, 117, 0.4);
+  background-color: rgba(29, 78, 121, 0.4);
   color: white;
   padding: 1px 0px; }
   /* line 11, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/panel */
@@ -6070,7 +6071,7 @@ body.signedin #signoutform {
     padding: 10px; }
     /* line 15, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/panel */
     #accordion.panel-group .panel-heading a:hover {
-      background: #1a5775; }
+      background: #1d4f7a; }
 /* line 21, /Users/marcel/Sites/blueprint/blueprint/assets/scss/partials/panel */
 #accordion.panel-group .panel-body, #accordion.panel-group .well {
   padding-bottom: 0px; }

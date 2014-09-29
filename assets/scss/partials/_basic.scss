@@ -19,17 +19,17 @@ p {
 
     &.lead span {
         font-size: .8em !important;
-        
-        a {
-            color: $text-color;
-            border-bottom: 2px solid transparentize($text-color, .5);
-            cursor: pointer;
-    
-            &:hover {
-                text-decoration: none;
-                border-bottom: 2px solid transparentize($text-color, 1);
-            }
-        }
+    }
+}
+
+a:not(.accordiontoggle, .btn, ) {
+    color: $text-color;
+    border-bottom: 2px solid transparentize($text-color, .5);
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: none;
+        border-bottom: 2px solid transparentize($text-color, 1);
     }
 }
 
