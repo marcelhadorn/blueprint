@@ -16,6 +16,7 @@
   "lintScripts": false,
   "modelSource": null,
   "optimiseImages": false,
+  "ignoreDir": ["assets/js/bower_components"],
   "preprocessorLocations": [
     "assets"
   ],
