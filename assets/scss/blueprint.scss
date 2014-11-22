@@ -5,6 +5,7 @@ App: Blueprint, Author: Marcel Hadorn (@marc3llo)
 */
 
 //Uncomment un implemented items
+@import 'partials/mixins';
 @import 'partials/variables';
 @import 'partials/visualgrid';
 @import 'partials/basic';
@@ -16,6 +17,5 @@ App: Blueprint, Author: Marcel Hadorn (@marc3llo)
 @import 'partials/panel';
 @import 'partials/accordion';
 @import 'partials/simplecheckout';
-@import 'partials/buttons';
 @import 'partials/responsive';
 

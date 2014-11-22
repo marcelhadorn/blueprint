@@ -21,7 +21,7 @@ $(document).ready(function(){
 	//	};
 	//}
 	//start();
-	// 
+	//
 	//$( ".carousel" ).mouseenter(function() {
 	//  var myDiv = $( "div" );
 	//  myDiv.clearQueue();
@@ -43,9 +43,9 @@ $(document).ready(function(){
 	$('#submit a.btn').attr('disabled', 'disabled').addClass('pull-right');
 	$('#submit a.btn .default').text('Bestellung aufgeben');
 
-	$('.btn.process').click(function(){
+	$('.btn-process').click(function(){
 		var thisbtn = $(this);
-		
+
 		if (thisbtn.hasClass('end')) {
 			thisbtn.removeClass('end', 'start');
 		} else {
@@ -58,7 +58,7 @@ $(document).ready(function(){
 		}
 	});
 
-	$('#submit .btn.process').click(function(){
+	$('#submit .btn-process').click(function(){
 		$(this).addClass('start');
 		setTimeout(function(){
 			$('#details').css({'opacity': '0', 'z-index': '10'});
@@ -75,7 +75,7 @@ $(document).ready(function(){
 			pklein = $('span#pklein').text(),
 			ptotal = parseInt(pgross) + parseInt(pklein);
 		$('span#total').html('CHF ' + ptotal + '.-')
-	} 
+	}
 
 	$('#gPlus').on('click', function(){
 		var $button = $(this);
@@ -139,7 +139,7 @@ $(document).ready(function(){
     	} else {
       		newVal = 0;
     	}
-    	
+
 		choice.val(newVal);
 
 		var value = choice.val();

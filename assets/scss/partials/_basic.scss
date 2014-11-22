@@ -96,7 +96,11 @@ footer {
     background-color: white;
     color: $brand-info;
     p {
-        color: $brand-info; 
+        color: $brand-info;
         font-size: 1.2em;
     }
+}
+
+.btn-process {
+    @include btn-process;
 }
